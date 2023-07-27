@@ -1,0 +1,140 @@
+2023-07-27 18:02:58,342 [INFO] - ----->ABEVEL.mol2  has been converted to the amber gaff type: ABEVEL_g.mol2.
+2023-07-27 18:02:58,343 [INFO] - 
+
+2023-07-27 18:02:58,351 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{1: [[2, 'p5'], [3, 'p5'], [4, 'ss'], [7, 'ca']]} --pd id: [1]
+2023-07-27 18:02:58,351 [INFO] - 
+
+2023-07-27 18:02:58,352 [INFO] - step 1: b= [2, 'p5', 3, 'p5', 4, 'ss', 7, 'ca']
+2023-07-27 18:02:58,352 [INFO] - 
+
+2023-07-27 18:02:58,353 [INFO] - step 2 c= ['p5', 'p5', 'ss', 'ca']
+2023-07-27 18:02:58,354 [INFO] - 
+
+2023-07-27 18:02:58,354 [INFO] - step 3: d= [2, 3, 4, 7]
+2023-07-27 18:02:58,355 [INFO] - 
+
+2023-07-27 18:02:58,361 [INFO] - 2-1-4 are cis. Angle is: 105.80 derece.
+2023-07-27 18:02:58,362 [INFO] - 
+
+2023-07-27 18:02:58,365 [INFO] - 2-1-7 are cis. Angle is: 79.68 derece.
+2023-07-27 18:02:58,366 [INFO] - 
+
+2023-07-27 18:02:58,370 [INFO] - 3-1-4 are cis. Angle is: 94.31 derece.
+2023-07-27 18:02:58,370 [INFO] - 
+
+2023-07-27 18:02:58,374 [INFO] - 3-1-7 are cis. Angle is: 80.17 derece.
+2023-07-27 18:02:58,375 [INFO] - 
+
+2023-07-27 18:02:58,378 [INFO] - Connections: [(2, 4), (2, 7), (3, 4), (3, 7)]
+2023-07-27 18:02:58,379 [INFO] - 
+
+2023-07-27 18:02:58,379 [INFO] - Sequence:
+2023-07-27 18:02:58,379 [INFO] -  
+2023-07-27 18:02:58,380 [INFO] - [2, 4, 3, 7]
+2023-07-27 18:02:58,380 [INFO] - 
+
+2023-07-27 18:02:58,382 [INFO] - step 4: saf= ['p', 's', 'p', 'd']
+2023-07-27 18:02:58,382 [INFO] - 
+
+2023-07-27 18:02:58,383 [INFO] - ----->Atom types according to numbering sytem: ['1p', '2s', '3p', '4d']
+2023-07-27 18:02:58,384 [INFO] - 
+
+2023-07-27 18:02:58,384 [INFO] - ----->In your mol2 file these atoms will be replaced: [2, 4, 3, 7]
+2023-07-27 18:02:58,385 [INFO] - 
+
+2023-07-27 18:02:58,394 [INFO] - for g.mol2: gaff_sequenced_dict={'2': 'p5', '3': 'p5', '4': 'ss', '7': 'ca'}
+2023-07-27 18:02:58,394 [INFO] - 
+
+2023-07-27 18:02:58,395 [INFO] - for g2.mol2: g2_changes={'2': '1p', '3': '3p', '4': '2s', '7': '4d'}
+2023-07-27 18:02:58,395 [INFO] - 
+
+2023-07-27 18:02:58,396 [INFO] - ----->Numbering/GAFF Dictionary:{'1p': 'p5', '3p': 'p5', '2s': 'ss', '4d': 'ca'}
+2023-07-27 18:02:58,396 [INFO] - 
+
+2023-07-27 18:02:59,255 [INFO] - 'parmchk2 -i ABEVEL_g.mol2 -f mol2 -o ABEVEL_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:02:59,255 [INFO] - 
+
+2023-07-27 18:03:00,108 [INFO] - 'parmchk2 -i ABEVEL_g2.mol2 -f mol2 -o ABEVEL_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:00,108 [INFO] - 
+
+2023-07-27 18:03:01,285 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:03:01,285 [INFO] - 
+
+2023-07-27 18:03:01,295 [INFO] - ABEVEL_vacuum_tleap.txt file created successfully!
+2023-07-27 18:03:01,295 [INFO] - 
+
+2023-07-27 18:03:01,300 [INFO] - ABEVEL_water_tleap.txt file created successfully!
+2023-07-27 18:03:01,301 [INFO] - 
+
+2023-07-27 18:03:02,740 [INFO] - 'ABEVEL_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:02,741 [INFO] - 
+
+2023-07-27 18:03:03,538 [INFO] - 'ABEVEL_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:03,539 [INFO] - 
+
+2023-07-27 18:03:03,550 [INFO] - 'ABEVEL_g.mol2' moved to 'ABEVEL_files/ABEVEL_g.mol2'.
+2023-07-27 18:03:03,550 [INFO] - 
+
+2023-07-27 18:03:03,559 [INFO] - 'ABEVEL_g2.mol2' moved to 'ABEVEL_files/ABEVEL_g2.mol2'.
+2023-07-27 18:03:03,559 [INFO] - 
+
+2023-07-27 18:03:03,570 [INFO] - 'ABEVEL_temp.dat' moved to 'ABEVEL_files/ABEVEL_temp.dat'.
+2023-07-27 18:03:03,570 [INFO] - 
+
+2023-07-27 18:03:03,578 [INFO] - 'ABEVEL_check.dat' moved to 'ABEVEL_files/ABEVEL_check.dat'.
+2023-07-27 18:03:03,578 [INFO] - 
+
+2023-07-27 18:03:03,587 [INFO] - 'ABEVEL.frcmod' moved to 'ABEVEL_files/ABEVEL.frcmod'.
+2023-07-27 18:03:03,588 [INFO] - 
+
+2023-07-27 18:03:03,595 [INFO] - 'ABEVEL_vacuum_tleap.txt' moved to 'ABEVEL_files/ABEVEL_vacuum_tleap.txt'.
+2023-07-27 18:03:03,596 [INFO] - 
+
+2023-07-27 18:03:03,604 [INFO] - 'ABEVEL_water_tleap.txt' moved to 'ABEVEL_files/ABEVEL_water_tleap.txt'.
+2023-07-27 18:03:03,605 [INFO] - 
+
+2023-07-27 18:03:03,611 [INFO] - 'ABEVEL.log' moved to 'ABEVEL_files/ABEVEL.log'.
+2023-07-27 18:03:03,611 [INFO] - 
+
+2023-07-27 18:03:03,619 [INFO] - 'ABEVEL.mol2' moved to 'ABEVEL_files/ABEVEL.mol2'.
+2023-07-27 18:03:03,619 [INFO] - 
+
+2023-07-27 18:03:03,626 [INFO] - 'ABEVEL_water.top' moved to 'ABEVEL_files/ABEVEL_water.top'.
+2023-07-27 18:03:03,626 [INFO] - 
+
+2023-07-27 18:03:03,633 [INFO] - 'ABEVEL_vacuum.top' moved to 'ABEVEL_files/ABEVEL_vacuum.top'.
+2023-07-27 18:03:03,633 [INFO] - 
+
+2023-07-27 18:03:03,639 [INFO] - 'ABEVEL_vacuum.crd' moved to 'ABEVEL_files/ABEVEL_vacuum.crd'.
+2023-07-27 18:03:03,639 [INFO] - 
+
+2023-07-27 18:03:03,645 [INFO] - 'ABEVEL_water.crd' moved to 'ABEVEL_files/ABEVEL_water.crd'.
+2023-07-27 18:03:03,645 [INFO] - 
+
+2023-07-27 18:03:03,649 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:03:03,650 [INFO] - 
+
+2023-07-27 18:03:03,653 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:03:03,653 [INFO] - 
+
+2023-07-27 18:03:03,654 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:03:03,654 [INFO] - 
+
+2023-07-27 18:03:03,658 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:03:03,659 [INFO] - 
+
+2023-07-27 18:03:03,662 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:03:03,663 [INFO] - 
+
+2023-07-27 18:03:03,666 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:03:03,667 [INFO] - 
+
+2023-07-27 18:03:03,670 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:03:03,671 [INFO] - 
+
+2023-07-27 18:03:03,674 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:03:03,675 [INFO] - 
+
+2023-07-27 18:03:03,675 [INFO] - **********All processes are finished. Your pd force field file is: ABEVEL_files/ABEVEL.frcmod. Check the ABEVEL_files/ABEVEL_vacuum_tleap.txt  and ABEVEL_files/ABEVEL_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABEVEL_files/ABEVEL_g2.mol2 FILE... **************
+2023-07-27 18:03:03,676 [INFO] - 
+

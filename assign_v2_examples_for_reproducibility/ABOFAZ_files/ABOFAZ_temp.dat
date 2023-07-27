@@ -1,0 +1,142 @@
+Remark line goes here
+MASS
+Pd 106.400       0.000               ATTN, no polarizability parameter
+3c 35.450        1.910               same as cl 
+4c 35.450        1.910               same as cl 
+s  32.060        2.900
+2n 14.010        0.530               same as nh 
+1n 14.010        0.530               same as nh 
+c3 12.010        0.878
+hc 1.008         0.135
+h1 1.008         0.135
+c2 12.010        0.360
+ha 1.008         0.135
+
+BOND
+3c-Pd    0.00   0.000       ATTN, need revision
+4c-Pd    0.00   0.000       ATTN, need revision
+2n-Pd    0.00   0.000       ATTN, need revision
+1n-Pd    0.00   0.000       ATTN, need revision
+c2-s   281.50   1.734
+2n-c3  326.60   1.464       same as c3-nh, penalty score=  0.0
+2n-c2  416.20   1.387       same as c2-nh, penalty score=  0.0
+1n-c2  416.20   1.387       same as c2-nh, penalty score=  0.0
+1n-c3  326.60   1.464       same as c3-nh, penalty score=  0.0
+c3-hc  330.60   1.097
+c3-c3  300.90   1.538
+c3-h1  330.60   1.097
+c2-c3  326.80   1.510
+c2-ha  343.10   1.088
+
+ANGLE
+Pd-2n-c3    0.000       0.000   ATTN, need revision
+Pd-2n-c2    0.000       0.000   ATTN, need revision
+Pd-1n-c2    0.000       0.000   ATTN, need revision
+Pd-1n-c3    0.000       0.000   ATTN, need revision
+3c-Pd-4c    0.000       0.000   ATTN, need revision
+2n-Pd-3c    0.000       0.000   ATTN, need revision
+1n-Pd-3c    0.000       0.000   ATTN, need revision
+2n-Pd-4c    0.000       0.000   ATTN, need revision
+1n-Pd-4c    0.000       0.000   ATTN, need revision
+2n-c2-s    65.317     117.245   Calculated using  s-c2-nh, penalty score=  0.0
+c3-c2-s    62.800     115.440
+1n-c2-s    65.317     117.245   Calculated using  s-c2-nh, penalty score=  0.0
+1n-Pd-2n    0.000       0.000   ATTN, need revision
+2n-c3-c3   66.200     110.460   same as c3-c3-nh, penalty score=  0.0
+2n-c3-h1   49.600     109.790   same as h1-c3-nh, penalty score=  0.0
+2n-c3-c2   66.900     110.410   same as c2-c3-nh, penalty score=  0.0
+2n-c2-c3   66.700     116.210   same as c3-c2-nh, penalty score=  0.0
+1n-c2-c3   66.700     116.210   same as c3-c2-nh, penalty score=  0.0
+1n-c3-c2   66.900     110.410   same as c2-c3-nh, penalty score=  0.0
+1n-c3-h1   49.600     109.790   same as h1-c3-nh, penalty score=  0.0
+1n-c3-c3   66.200     110.460   same as c3-c3-nh, penalty score=  0.0
+c3-c3-hc   46.300     109.800
+c3-c3-c3   62.900     111.510
+hc-c3-hc   39.400     107.580
+c3-c3-h1   46.400     109.560
+c2-c3-c3   63.400     111.560
+c2-2n-c3   62.400     123.710   same as c2-nh-c3, penalty score=  0.0
+c3-c2-ha   45.900     115.680
+c2-c3-h1   47.100     109.960
+ha-c2-ha   38.100     116.900
+c2-c3-c2   63.900     112.000
+c2-1n-c3   62.400     123.710   same as c2-nh-c3, penalty score=  0.0
+
+DIHE
+Pd-2n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+Pd-2n-c3-h1   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+Pd-2n-c3-c2   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+Pd-2n-c2-s    4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+Pd-2n-c2-c3   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+Pd-1n-c2-s    4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+Pd-1n-c2-c3   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+Pd-1n-c3-c2   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+Pd-1n-c3-h1   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+Pd-1n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c3-2n-Pd-3c   1    0.000         0.000           2.000      ATTN, need revision
+c2-2n-Pd-3c   1    0.000         0.000           2.000      ATTN, need revision
+c2-1n-Pd-3c   1    0.000         0.000           2.000      ATTN, need revision
+c3-1n-Pd-3c   1    0.000         0.000           2.000      ATTN, need revision
+c3-2n-Pd-4c   1    0.000         0.000           2.000      ATTN, need revision
+c2-2n-Pd-4c   1    0.000         0.000           2.000      ATTN, need revision
+c2-1n-Pd-4c   1    0.000         0.000           2.000      ATTN, need revision
+c3-1n-Pd-4c   1    0.000         0.000           2.000      ATTN, need revision
+s -c2-c3-c3   6    0.000         0.000           2.000
+s -c2-c3-c2   6    0.000         0.000           2.000
+c2-1n-Pd-2n   1    0.000         0.000           2.000      ATTN, need revision
+c3-1n-Pd-2n   1    0.000         0.000           2.000      ATTN, need revision
+ha-c2-c3-2n   6    0.000         0.000           2.000
+2n-c2-c3-c3   6    0.000         0.000           2.000
+2n-c2-c3-c2   6    0.000         0.000           2.000
+c3-2n-Pd-1n   1    0.000         0.000           2.000      ATTN, need revision
+c2-2n-Pd-1n   1    0.000         0.000           2.000      ATTN, need revision
+1n-c3-c3-hc   9    1.400         0.000           3.000
+1n-c3-c3-c3   9    1.400         0.000           3.000
+2n-c3-c3-c3   9    1.400         0.000           3.000
+c3-c3-c3-h1   9    1.400         0.000           3.000
+c2-c3-c3-c3   9    1.400         0.000           3.000
+hc-c3-c3-hc   1    0.150         0.000           3.000
+c3-c3-c3-hc   1    0.160         0.000           3.000
+ha-c2-c3-c3   6    0.000         0.000           2.000
+2n-c3-c3-hc   9    1.400         0.000           3.000
+h1-c3-c3-hc   9    1.400         0.000           3.000
+c2-c3-c3-hc   9    1.400         0.000           3.000
+c3-2n-c2-s    4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+c3-2n-c2-c3   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+ha-c2-c3-h1   6    0.000         0.000           2.000
+c2-2n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c2-2n-c3-h1   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c2-2n-c3-c2   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+1n-c2-c3-c2   6    0.000         0.000           2.000
+c3-c3-c3-c3   1    0.180         0.000          -3.000
+c3-c3-c3-c3   1    0.250       180.000          -2.000
+c3-c3-c3-c3   1    0.200       180.000           1.000
+1n-c2-c3-c3   6    0.000         0.000           2.000
+c2-1n-c3-c2   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c2-1n-c3-h1   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c2-1n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+ha-c2-c3-1n   6    0.000         0.000           2.000
+c3-1n-c2-s    4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+c3-1n-c2-c3   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+
+IMPROPER
+1n-2n-Pd-3c         1.1          180.0         2.0          Using the default value
+c3-ha-c2-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 47.1 (use general term))
+2n-c3-c2-s          1.1          180.0         2.0          Using the default value
+1n-c3-c2-s          1.1          180.0         2.0          Using the default value
+
+NONBON
+  Pd          0.0000  0.0000             ATTN, need revision
+  3c          1.9480  0.2650             same as cl 
+  4c          1.9480  0.2650             same as cl 
+  s           2.0000  0.2500
+  2n          1.8240  0.1700             same as nh 
+  1n          1.8240  0.1700             same as nh 
+  c3          1.9080  0.1094
+  hc          1.4870  0.0157
+  h1          1.3870  0.0157
+  c2          1.9080  0.0860
+  ha          1.4590  0.0150
+
+
+

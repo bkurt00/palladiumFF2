@@ -1,0 +1,8 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABIDIB_g2.mol2
+a=loadmol2 ABIDIB_g2.mol2
+source leaprc.gaff2
+loadamberparams ABIDIB.frcmod
+charge a
+check a
+saveamberparm a ABIDIB_vacuum.top ABIDIB_vacuum.crd
+quit

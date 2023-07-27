@@ -1,0 +1,10 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABATIK_g2.mol2
+a=loadmol2 ABATIK_g2.mol2
+source leaprc.gaff2
+loadamberparams ABATIK.frcmod
+source leaprc.water.OPC
+solvatebox a OPCBOX 12.0
+charge a
+check a
+saveamberparm a ABATIK_water.top ABATIK_water.crd
+quit

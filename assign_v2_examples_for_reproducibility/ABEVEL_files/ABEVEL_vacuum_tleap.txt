@@ -1,0 +1,8 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABEVEL_g2.mol2
+a=loadmol2 ABEVEL_g2.mol2
+source leaprc.gaff2
+loadamberparams ABEVEL.frcmod
+charge a
+check a
+saveamberparm a ABEVEL_vacuum.top ABEVEL_vacuum.crd
+quit

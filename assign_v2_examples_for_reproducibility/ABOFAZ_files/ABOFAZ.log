@@ -1,0 +1,140 @@
+2023-07-27 18:03:31,470 [INFO] - ----->ABOFAZ.mol2  has been converted to the amber gaff type: ABOFAZ_g.mol2.
+2023-07-27 18:03:31,470 [INFO] - 
+
+2023-07-27 18:03:31,474 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{1: [[7, 'n'], [6, 'n'], [2, 'cl'], [3, 'cl']]} --pd id: [1]
+2023-07-27 18:03:31,475 [INFO] - 
+
+2023-07-27 18:03:31,476 [INFO] - step 1: b= [7, 'n', 6, 'n', 2, 'cl', 3, 'cl']
+2023-07-27 18:03:31,476 [INFO] - 
+
+2023-07-27 18:03:31,476 [INFO] - step 2 c= ['n', 'n', 'cl', 'cl']
+2023-07-27 18:03:31,477 [INFO] - 
+
+2023-07-27 18:03:31,477 [INFO] - step 3: d= [7, 6, 2, 3]
+2023-07-27 18:03:31,478 [INFO] - 
+
+2023-07-27 18:03:31,482 [INFO] - 7-1-6 are cis. Angle is: 85.62 derece.
+2023-07-27 18:03:31,482 [INFO] - 
+
+2023-07-27 18:03:31,489 [INFO] - 7-1-3 are cis. Angle is: 90.58 derece.
+2023-07-27 18:03:31,489 [INFO] - 
+
+2023-07-27 18:03:31,494 [INFO] - 6-1-2 are cis. Angle is: 93.95 derece.
+2023-07-27 18:03:31,494 [INFO] - 
+
+2023-07-27 18:03:31,500 [INFO] - 2-1-3 are cis. Angle is: 90.03 derece.
+2023-07-27 18:03:31,501 [INFO] - 
+
+2023-07-27 18:03:31,501 [INFO] - Connections: [(7, 6), (7, 3), (6, 2), (2, 3)]
+2023-07-27 18:03:31,502 [INFO] - 
+
+2023-07-27 18:03:31,502 [INFO] - Sequence:
+2023-07-27 18:03:31,503 [INFO] -  
+2023-07-27 18:03:31,503 [INFO] - [7, 6, 2, 3]
+2023-07-27 18:03:31,504 [INFO] - 
+
+2023-07-27 18:03:31,506 [INFO] - step 4: saf= ['n', 'n', 'c', 'c']
+2023-07-27 18:03:31,507 [INFO] - 
+
+2023-07-27 18:03:31,507 [INFO] - ----->Atom types according to numbering sytem: ['1n', '2n', '3c', '4c']
+2023-07-27 18:03:31,508 [INFO] - 
+
+2023-07-27 18:03:31,508 [INFO] - ----->In your mol2 file these atoms will be replaced: [7, 6, 2, 3]
+2023-07-27 18:03:31,509 [INFO] - 
+
+2023-07-27 18:03:31,517 [INFO] - for g.mol2: gaff_sequenced_dict={'2': 'cl', '3': 'cl', '6': 'n', '7': 'n'}
+2023-07-27 18:03:31,517 [INFO] - 
+
+2023-07-27 18:03:31,518 [INFO] - for g2.mol2: g2_changes={'2': '3c', '3': '4c', '6': '2n', '7': '1n'}
+2023-07-27 18:03:31,518 [INFO] - 
+
+2023-07-27 18:03:31,518 [INFO] - ----->Numbering/GAFF Dictionary:{'3c': 'cl', '4c': 'cl', '2n': 'n', '1n': 'n'}
+2023-07-27 18:03:31,519 [INFO] - 
+
+2023-07-27 18:03:32,317 [INFO] - 'parmchk2 -i ABOFAZ_g.mol2 -f mol2 -o ABOFAZ_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:32,317 [INFO] - 
+
+2023-07-27 18:03:33,130 [INFO] - 'parmchk2 -i ABOFAZ_g2.mol2 -f mol2 -o ABOFAZ_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:33,130 [INFO] - 
+
+2023-07-27 18:03:34,323 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:03:34,324 [INFO] - 
+
+2023-07-27 18:03:34,333 [INFO] - ABOFAZ_vacuum_tleap.txt file created successfully!
+2023-07-27 18:03:34,333 [INFO] - 
+
+2023-07-27 18:03:34,338 [INFO] - ABOFAZ_water_tleap.txt file created successfully!
+2023-07-27 18:03:34,339 [INFO] - 
+
+2023-07-27 18:03:35,751 [INFO] - 'ABOFAZ_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:35,751 [INFO] - 
+
+2023-07-27 18:03:36,540 [INFO] - 'ABOFAZ_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:36,541 [INFO] - 
+
+2023-07-27 18:03:36,552 [INFO] - 'ABOFAZ_g.mol2' moved to 'ABOFAZ_files/ABOFAZ_g.mol2'.
+2023-07-27 18:03:36,553 [INFO] - 
+
+2023-07-27 18:03:36,562 [INFO] - 'ABOFAZ_g2.mol2' moved to 'ABOFAZ_files/ABOFAZ_g2.mol2'.
+2023-07-27 18:03:36,562 [INFO] - 
+
+2023-07-27 18:03:36,572 [INFO] - 'ABOFAZ_temp.dat' moved to 'ABOFAZ_files/ABOFAZ_temp.dat'.
+2023-07-27 18:03:36,573 [INFO] - 
+
+2023-07-27 18:03:36,581 [INFO] - 'ABOFAZ_check.dat' moved to 'ABOFAZ_files/ABOFAZ_check.dat'.
+2023-07-27 18:03:36,582 [INFO] - 
+
+2023-07-27 18:03:36,592 [INFO] - 'ABOFAZ.frcmod' moved to 'ABOFAZ_files/ABOFAZ.frcmod'.
+2023-07-27 18:03:36,592 [INFO] - 
+
+2023-07-27 18:03:36,602 [INFO] - 'ABOFAZ_vacuum_tleap.txt' moved to 'ABOFAZ_files/ABOFAZ_vacuum_tleap.txt'.
+2023-07-27 18:03:36,603 [INFO] - 
+
+2023-07-27 18:03:36,611 [INFO] - 'ABOFAZ_water_tleap.txt' moved to 'ABOFAZ_files/ABOFAZ_water_tleap.txt'.
+2023-07-27 18:03:36,612 [INFO] - 
+
+2023-07-27 18:03:36,618 [INFO] - 'ABOFAZ.log' moved to 'ABOFAZ_files/ABOFAZ.log'.
+2023-07-27 18:03:36,619 [INFO] - 
+
+2023-07-27 18:03:36,626 [INFO] - 'ABOFAZ.mol2' moved to 'ABOFAZ_files/ABOFAZ.mol2'.
+2023-07-27 18:03:36,627 [INFO] - 
+
+2023-07-27 18:03:36,634 [INFO] - 'ABOFAZ_water.top' moved to 'ABOFAZ_files/ABOFAZ_water.top'.
+2023-07-27 18:03:36,634 [INFO] - 
+
+2023-07-27 18:03:36,641 [INFO] - 'ABOFAZ_vacuum.top' moved to 'ABOFAZ_files/ABOFAZ_vacuum.top'.
+2023-07-27 18:03:36,641 [INFO] - 
+
+2023-07-27 18:03:36,647 [INFO] - 'ABOFAZ_vacuum.crd' moved to 'ABOFAZ_files/ABOFAZ_vacuum.crd'.
+2023-07-27 18:03:36,648 [INFO] - 
+
+2023-07-27 18:03:36,654 [INFO] - 'ABOFAZ_water.crd' moved to 'ABOFAZ_files/ABOFAZ_water.crd'.
+2023-07-27 18:03:36,655 [INFO] - 
+
+2023-07-27 18:03:36,658 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:03:36,658 [INFO] - 
+
+2023-07-27 18:03:36,662 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:03:36,662 [INFO] - 
+
+2023-07-27 18:03:36,663 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:03:36,664 [INFO] - 
+
+2023-07-27 18:03:36,667 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:03:36,668 [INFO] - 
+
+2023-07-27 18:03:36,672 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:03:36,672 [INFO] - 
+
+2023-07-27 18:03:36,676 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:03:36,677 [INFO] - 
+
+2023-07-27 18:03:36,680 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:03:36,681 [INFO] - 
+
+2023-07-27 18:03:36,685 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:03:36,685 [INFO] - 
+
+2023-07-27 18:03:36,686 [INFO] - **********All processes are finished. Your pd force field file is: ABOFAZ_files/ABOFAZ.frcmod. Check the ABOFAZ_files/ABOFAZ_vacuum_tleap.txt  and ABOFAZ_files/ABOFAZ_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABOFAZ_files/ABOFAZ_g2.mol2 FILE... **************
+2023-07-27 18:03:36,686 [INFO] - 
+

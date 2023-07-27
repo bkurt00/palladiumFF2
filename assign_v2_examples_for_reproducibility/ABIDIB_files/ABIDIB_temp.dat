@@ -1,0 +1,141 @@
+Remark line goes here
+MASS
+Pd 106.400       0.000               ATTN, no polarizability parameter
+1o 16.000        0.465               same as os 
+o  16.000        0.434
+2n 14.010        0.530               same as nh 
+hn 1.008         0.161
+c3 12.010        0.878
+hx 1.008         0.135
+hc 1.008         0.135
+c  12.010        0.616
+3o 16.000        0.465               same as os 
+4n 14.010        0.530               same as nh 
+
+BOND
+1o-Pd    0.00   0.000       ATTN, need revision
+2n-Pd    0.00   0.000       ATTN, need revision
+3o-Pd    0.00   0.000       ATTN, need revision
+4n-Pd    0.00   0.000       ATTN, need revision
+1o-c   390.80   1.358       same as  c-os, penalty score=  0.0
+c -o   637.70   1.218
+2n-hn  404.60   1.012       same as hn-nh, penalty score=  0.0
+2n-c3  326.60   1.464       same as c3-nh, penalty score=  0.0
+c3-hx  338.70   1.091
+c3-c3  300.90   1.538
+c3-hc  330.60   1.097
+c -c3  313.00   1.524
+3o-c   390.80   1.358       same as  c-os, penalty score=  0.0
+4n-hn  404.60   1.012       same as hn-nh, penalty score=  0.0
+4n-c3  326.60   1.464       same as c3-nh, penalty score=  0.0
+
+ANGLE
+Pd-1o-c     0.000       0.000   ATTN, need revision
+Pd-2n-hn    0.000       0.000   ATTN, need revision
+Pd-2n-c3    0.000       0.000   ATTN, need revision
+Pd-3o-c     0.000       0.000   ATTN, need revision
+Pd-4n-hn    0.000       0.000   ATTN, need revision
+Pd-4n-c3    0.000       0.000   ATTN, need revision
+1o-Pd-2n    0.000       0.000   ATTN, need revision
+1o-Pd-3o    0.000       0.000   ATTN, need revision
+1o-Pd-4n    0.000       0.000   ATTN, need revision
+1o-c -o    75.300     123.250   same as o -c -os, penalty score=  0.0
+1o-c -c3   68.900     110.720   same as c3-c -os, penalty score=  0.0
+c3-c -o    67.400     123.200
+2n-Pd-3o    0.000       0.000   ATTN, need revision
+2n-Pd-4n    0.000       0.000   ATTN, need revision
+2n-c3-hx   49.500     110.010   same as h2-c3-nh, penalty score=  0.3
+2n-c3-c3   66.200     110.460   same as c3-c3-nh, penalty score=  0.0
+c3-2n-hn   46.100     115.990   same as c3-nh-hn, penalty score=  0.0
+c3-2n-c3   63.200     114.510   same as c3-nh-c3, penalty score=  0.0
+c3-c3-hc   46.300     109.800
+c3-c3-c3   62.900     111.510
+c3-c3-hx   46.200     110.560
+hc-c3-hc   39.400     107.580
+c -c3-hc   46.900     108.770
+3o-Pd-4n    0.000       0.000   ATTN, need revision
+3o-c -o    75.300     123.250   same as o -c -os, penalty score=  0.0
+3o-c -c3   68.900     110.720   same as c3-c -os, penalty score=  0.0
+4n-c3-hx   49.500     110.010   same as h2-c3-nh, penalty score=  0.3
+4n-c3-c3   66.200     110.460   same as c3-c3-nh, penalty score=  0.0
+c3-4n-hn   46.100     115.990   same as c3-nh-hn, penalty score=  0.0
+c3-4n-c3   63.200     114.510   same as c3-nh-c3, penalty score=  0.0
+
+DIHE
+Pd-1o-c -o    2    5.400       180.000           2.000      same as X -c -os-X , penalty score=  0.0
+Pd-1o-c -c3   2    5.400       180.000           2.000      same as X -c -os-X , penalty score=  0.0
+Pd-2n-c3-hx   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+Pd-2n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+Pd-3o-c -o    2    5.400       180.000           2.000      same as X -c -os-X , penalty score=  0.0
+Pd-3o-c -c3   2    5.400       180.000           2.000      same as X -c -os-X , penalty score=  0.0
+Pd-4n-c3-hx   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+Pd-4n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+hn-2n-Pd-1o   1    0.000         0.000           2.000      ATTN, need revision
+c3-2n-Pd-1o   1    0.000         0.000           2.000      ATTN, need revision
+c3-2n-Pd-1o   0    0.000         0.000           0.000
+c -3o-Pd-1o   1    0.000         0.000           2.000      ATTN, need revision
+hn-4n-Pd-1o   1    0.000         0.000           2.000      ATTN, need revision
+c3-4n-Pd-1o   1    0.000         0.000           2.000      ATTN, need revision
+c3-4n-Pd-1o   0    0.000         0.000           0.000
+1o-c -c3-hc   6    0.000       180.000           2.000
+o -c -c3-hc   1    0.800         0.000          -1.000
+o -c -c3-hc   1    0.000         0.000          -2.000
+o -c -c3-hc   1    0.080       180.000           3.000
+c -1o-Pd-2n   1    0.000         0.000           2.000      ATTN, need revision
+c -3o-Pd-2n   1    0.000         0.000           2.000      ATTN, need revision
+hn-4n-Pd-2n   1    0.000         0.000           2.000      ATTN, need revision
+c3-4n-Pd-2n   1    0.000         0.000           2.000      ATTN, need revision
+c3-4n-Pd-2n   0    0.000         0.000           0.000
+2n-c3-c3-hc   9    1.400         0.000           3.000
+2n-c3-c3-c3   9    1.400         0.000           3.000
+hn-2n-c3-hx   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+hn-2n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c3-2n-c3-hx   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c3-2n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c3-c3-c3-hc   1    0.160         0.000           3.000
+c3-c3-c3-c3   1    0.180         0.000          -3.000
+c3-c3-c3-c3   1    0.250       180.000          -2.000
+c3-c3-c3-c3   1    0.200       180.000           1.000
+hc-c3-c3-hx   9    1.400         0.000           3.000
+c3-c3-c3-hx   9    1.400         0.000           3.000
+hc-c3-c3-hc   1    0.150         0.000           3.000
+c -1o-Pd-3o   1    0.000         0.000           2.000      ATTN, need revision
+hn-2n-Pd-3o   1    0.000         0.000           2.000      ATTN, need revision
+c3-2n-Pd-3o   1    0.000         0.000           2.000      ATTN, need revision
+c3-2n-Pd-3o   0    0.000         0.000           0.000
+hn-4n-Pd-3o   1    0.000         0.000           2.000      ATTN, need revision
+c3-4n-Pd-3o   1    0.000         0.000           2.000      ATTN, need revision
+c3-4n-Pd-3o   0    0.000         0.000           0.000
+3o-c -c3-hc   6    0.000       180.000           2.000
+c -1o-Pd-4n   1    0.000         0.000           2.000      ATTN, need revision
+hn-2n-Pd-4n   1    0.000         0.000           2.000      ATTN, need revision
+c3-2n-Pd-4n   1    0.000         0.000           2.000      ATTN, need revision
+c3-2n-Pd-4n   0    0.000         0.000           0.000
+c -3o-Pd-4n   1    0.000         0.000           2.000      ATTN, need revision
+4n-c3-c3-hc   9    1.400         0.000           3.000
+4n-c3-c3-c3   9    1.400         0.000           3.000
+hn-4n-c3-hx   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+hn-4n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c3-4n-c3-hx   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c3-4n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+
+IMPROPER
+1o-2n-Pd-3o         1.1          180.0         2.0          Using the default value
+1o-c3-c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+3o-c3-c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+
+NONBON
+  Pd          0.0000  0.0000             ATTN, need revision
+  1o          1.6837  0.1700             same as os 
+  o           1.6612  0.2100
+  2n          1.8240  0.1700             same as nh 
+  hn          0.6000  0.0157
+  c3          1.9080  0.1094
+  hx          1.1000  0.0157
+  hc          1.4870  0.0157
+  c           1.9080  0.0860
+  3o          1.6837  0.1700             same as os 
+  4n          1.8240  0.1700             same as nh 
+
+
+

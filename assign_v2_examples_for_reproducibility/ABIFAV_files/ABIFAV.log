@@ -1,0 +1,143 @@
+2023-07-27 18:03:14,732 [INFO] - ----->ABIFAV.mol2  has been converted to the amber gaff type: ABIFAV_g.mol2.
+2023-07-27 18:03:14,733 [INFO] - 
+
+2023-07-27 18:03:14,740 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{1: [[2, 'os'], [4, 'nx'], [59, 'os'], [61, 'nx']]} --pd id: [1]
+2023-07-27 18:03:14,740 [INFO] - 
+
+2023-07-27 18:03:14,741 [INFO] - step 1: b= [2, 'os', 4, 'nx', 59, 'os', 61, 'nx']
+2023-07-27 18:03:14,742 [INFO] - 
+
+2023-07-27 18:03:14,742 [INFO] - step 2 c= ['os', 'nx', 'os', 'nx']
+2023-07-27 18:03:14,743 [INFO] - 
+
+2023-07-27 18:03:14,743 [INFO] - step 3: d= [2, 4, 59, 61]
+2023-07-27 18:03:14,744 [INFO] - 
+
+2023-07-27 18:03:14,748 [INFO] - 2-1-4 are cis. Angle is: 88.49 derece.
+2023-07-27 18:03:14,749 [INFO] - 
+
+2023-07-27 18:03:14,755 [INFO] - 2-1-61 are cis. Angle is: 91.51 derece.
+2023-07-27 18:03:14,756 [INFO] - 
+
+2023-07-27 18:03:14,759 [INFO] - 4-1-59 are cis. Angle is: 91.51 derece.
+2023-07-27 18:03:14,760 [INFO] - 
+
+2023-07-27 18:03:14,779 [ERROR] - assign_v2.py:188: RuntimeWarning: invalid value encountered in arccos
+  angle_rad = np.arccos(dot_product / magnitude_product)
+
+2023-07-27 18:03:14,782 [INFO] - 59-1-61 are cis. Angle is: 88.49 derece.
+2023-07-27 18:03:14,782 [INFO] - 
+
+2023-07-27 18:03:14,783 [INFO] - Connections: [(2, 4), (2, 61), (4, 59), (59, 61)]
+2023-07-27 18:03:14,783 [INFO] - 
+
+2023-07-27 18:03:14,784 [INFO] - Sequence:
+2023-07-27 18:03:14,784 [INFO] -  
+2023-07-27 18:03:14,784 [INFO] - [2, 4, 59, 61]
+2023-07-27 18:03:14,785 [INFO] - 
+
+2023-07-27 18:03:14,785 [INFO] - step 4: saf= ['o', 'n', 'o', 'n']
+2023-07-27 18:03:14,786 [INFO] - 
+
+2023-07-27 18:03:14,786 [INFO] - ----->Atom types according to numbering sytem: ['1o', '2n', '3o', '4n']
+2023-07-27 18:03:14,786 [INFO] - 
+
+2023-07-27 18:03:14,787 [INFO] - ----->In your mol2 file these atoms will be replaced: [2, 4, 59, 61]
+2023-07-27 18:03:14,787 [INFO] - 
+
+2023-07-27 18:03:14,794 [INFO] - for g.mol2: gaff_sequenced_dict={'2': 'os', '4': 'nx', '59': 'os', '61': 'nx'}
+2023-07-27 18:03:14,795 [INFO] - 
+
+2023-07-27 18:03:14,795 [INFO] - for g2.mol2: g2_changes={'2': '1o', '4': '2n', '59': '3o', '61': '4n'}
+2023-07-27 18:03:14,796 [INFO] - 
+
+2023-07-27 18:03:14,796 [INFO] - ----->Numbering/GAFF Dictionary:{'1o': 'os', '2n': 'nx', '3o': 'os', '4n': 'nx'}
+2023-07-27 18:03:14,797 [INFO] - 
+
+2023-07-27 18:03:15,743 [INFO] - 'parmchk2 -i ABIFAV_g.mol2 -f mol2 -o ABIFAV_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:15,743 [INFO] - 
+
+2023-07-27 18:03:16,731 [INFO] - 'parmchk2 -i ABIFAV_g2.mol2 -f mol2 -o ABIFAV_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:16,732 [INFO] - 
+
+2023-07-27 18:03:17,968 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:03:17,969 [INFO] - 
+
+2023-07-27 18:03:17,979 [INFO] - ABIFAV_vacuum_tleap.txt file created successfully!
+2023-07-27 18:03:17,980 [INFO] - 
+
+2023-07-27 18:03:17,984 [INFO] - ABIFAV_water_tleap.txt file created successfully!
+2023-07-27 18:03:17,985 [INFO] - 
+
+2023-07-27 18:03:19,433 [INFO] - 'ABIFAV_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:19,434 [INFO] - 
+
+2023-07-27 18:03:20,219 [INFO] - 'ABIFAV_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:20,220 [INFO] - 
+
+2023-07-27 18:03:20,231 [INFO] - 'ABIFAV_g.mol2' moved to 'ABIFAV_files/ABIFAV_g.mol2'.
+2023-07-27 18:03:20,232 [INFO] - 
+
+2023-07-27 18:03:20,243 [INFO] - 'ABIFAV_g2.mol2' moved to 'ABIFAV_files/ABIFAV_g2.mol2'.
+2023-07-27 18:03:20,243 [INFO] - 
+
+2023-07-27 18:03:20,253 [INFO] - 'ABIFAV_temp.dat' moved to 'ABIFAV_files/ABIFAV_temp.dat'.
+2023-07-27 18:03:20,253 [INFO] - 
+
+2023-07-27 18:03:20,263 [INFO] - 'ABIFAV_check.dat' moved to 'ABIFAV_files/ABIFAV_check.dat'.
+2023-07-27 18:03:20,263 [INFO] - 
+
+2023-07-27 18:03:20,273 [INFO] - 'ABIFAV.frcmod' moved to 'ABIFAV_files/ABIFAV.frcmod'.
+2023-07-27 18:03:20,274 [INFO] - 
+
+2023-07-27 18:03:20,285 [INFO] - 'ABIFAV_vacuum_tleap.txt' moved to 'ABIFAV_files/ABIFAV_vacuum_tleap.txt'.
+2023-07-27 18:03:20,286 [INFO] - 
+
+2023-07-27 18:03:20,296 [INFO] - 'ABIFAV_water_tleap.txt' moved to 'ABIFAV_files/ABIFAV_water_tleap.txt'.
+2023-07-27 18:03:20,296 [INFO] - 
+
+2023-07-27 18:03:20,305 [INFO] - 'ABIFAV.log' moved to 'ABIFAV_files/ABIFAV.log'.
+2023-07-27 18:03:20,305 [INFO] - 
+
+2023-07-27 18:03:20,315 [INFO] - 'ABIFAV.mol2' moved to 'ABIFAV_files/ABIFAV.mol2'.
+2023-07-27 18:03:20,315 [INFO] - 
+
+2023-07-27 18:03:20,324 [INFO] - 'ABIFAV_water.top' moved to 'ABIFAV_files/ABIFAV_water.top'.
+2023-07-27 18:03:20,325 [INFO] - 
+
+2023-07-27 18:03:20,334 [INFO] - 'ABIFAV_vacuum.top' moved to 'ABIFAV_files/ABIFAV_vacuum.top'.
+2023-07-27 18:03:20,335 [INFO] - 
+
+2023-07-27 18:03:20,343 [INFO] - 'ABIFAV_vacuum.crd' moved to 'ABIFAV_files/ABIFAV_vacuum.crd'.
+2023-07-27 18:03:20,344 [INFO] - 
+
+2023-07-27 18:03:20,352 [INFO] - 'ABIFAV_water.crd' moved to 'ABIFAV_files/ABIFAV_water.crd'.
+2023-07-27 18:03:20,353 [INFO] - 
+
+2023-07-27 18:03:20,357 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:03:20,358 [INFO] - 
+
+2023-07-27 18:03:20,362 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:03:20,363 [INFO] - 
+
+2023-07-27 18:03:20,363 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:03:20,364 [INFO] - 
+
+2023-07-27 18:03:20,368 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:03:20,368 [INFO] - 
+
+2023-07-27 18:03:20,371 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:03:20,372 [INFO] - 
+
+2023-07-27 18:03:20,376 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:03:20,376 [INFO] - 
+
+2023-07-27 18:03:20,379 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:03:20,380 [INFO] - 
+
+2023-07-27 18:03:20,383 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:03:20,384 [INFO] - 
+
+2023-07-27 18:03:20,384 [INFO] - **********All processes are finished. Your pd force field file is: ABIFAV_files/ABIFAV.frcmod. Check the ABIFAV_files/ABIFAV_vacuum_tleap.txt  and ABIFAV_files/ABIFAV_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABIFAV_files/ABIFAV_g2.mol2 FILE... **************
+2023-07-27 18:03:20,385 [INFO] - 
+

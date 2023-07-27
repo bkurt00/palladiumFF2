@@ -1,0 +1,8 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABOFAZ_g2.mol2
+a=loadmol2 ABOFAZ_g2.mol2
+source leaprc.gaff2
+loadamberparams ABOFAZ.frcmod
+charge a
+check a
+saveamberparm a ABOFAZ_vacuum.top ABOFAZ_vacuum.crd
+quit

@@ -1,0 +1,104 @@
+Remark line goes here
+MASS
+Pd 106.400       0.000               ATTN, no polarizability parameter
+cl 35.450        1.910
+s  32.060        2.900
+n  14.010        0.530
+c3 12.010        0.878
+hc 1.008         0.135
+h1 1.008         0.135
+c2 12.010        0.360
+ha 1.008         0.135
+
+BOND
+Pd-cl    0.00   0.000       ATTN, need revision
+Pd-n     0.00   0.000       ATTN, need revision
+c2-s   281.50   1.734
+c3-n   328.70   1.462
+c2-n   400.10   1.399
+c3-hc  330.60   1.097
+c3-c3  300.90   1.538
+c3-h1  330.60   1.097
+c2-c3  326.80   1.510
+c2-ha  343.10   1.088
+
+ANGLE
+Pd-n -c3    0.000       0.000   ATTN, need revision
+Pd-n -c2    0.000       0.000   ATTN, need revision
+cl-Pd-cl    0.000       0.000   ATTN, need revision
+cl-Pd-n     0.000       0.000   ATTN, need revision
+n -c2-s    65.128     117.450   Calculated with empirical approach for n-c2-s
+c3-c2-s    62.800     115.440
+n -Pd-n     0.000       0.000   ATTN, need revision
+c3-c3-n    65.900     111.610
+h1-c3-n    49.800     108.880
+c2-c3-n    66.700     111.290
+c3-c2-n    66.900     114.800
+c3-c3-hc   46.300     109.800
+c3-c3-c3   62.900     111.510
+hc-c3-hc   39.400     107.580
+c3-c3-h1   46.400     109.560
+c2-c3-c3   63.400     111.560
+c2-n -c3   63.100     120.100
+c3-c2-ha   45.900     115.680
+c2-c3-h1   47.100     109.960
+ha-c2-ha   38.100     116.900
+c2-c3-c2   63.900     112.000
+
+DIHE
+c3-c3-n -Pd   6    0.000         0.000           2.000
+h1-c3-n -Pd   6    0.000         0.000           2.000
+c2-c3-n -Pd   6    0.000         0.000           2.000
+s -c2-n -Pd   4    2.600       180.000           2.000
+c3-c2-n -Pd   4    2.600       180.000           2.000
+cl-Pd-n -c3   1    0.000         0.000           2.000      ATTN, need revision
+cl-Pd-n -c2   1    0.000         0.000           2.000      ATTN, need revision
+cl-Pd-n -c2   0    0.000         0.000           0.000
+cl-Pd-n -c3   0    0.000         0.000           0.000
+s -c2-c3-c3   6    0.000         0.000           2.000
+s -c2-c3-c2   6    0.000         0.000           2.000
+n -Pd-n -c2   1    0.000         0.000           2.000      ATTN, need revision
+n -Pd-n -c3   1    0.000         0.000           2.000      ATTN, need revision
+ha-c2-c3-n    6    0.000         0.000           2.000
+n -c2-c3-c3   6    0.000         0.000           2.000
+n -c2-c3-c2   6    0.000         0.000           2.000
+n -Pd-n -c3   0    0.000         0.000           0.000
+n -Pd-n -c2   0    0.000         0.000           0.000
+hc-c3-c3-n    9    1.400         0.000           3.000
+c3-c3-c3-n    9    1.400         0.000           3.000
+c3-c3-c3-h1   9    1.400         0.000           3.000
+c2-c3-c3-c3   9    1.400         0.000           3.000
+hc-c3-c3-hc   1    0.150         0.000           3.000
+c3-c3-c3-hc   1    0.160         0.000           3.000
+ha-c2-c3-c3   6    0.000         0.000           2.000
+h1-c3-c3-hc   9    1.400         0.000           3.000
+c2-c3-c3-hc   9    1.400         0.000           3.000
+s -c2-n -c3   4    2.600       180.000           2.000
+c3-c2-n -c3   4    2.600       180.000           2.000
+ha-c2-c3-h1   6    0.000         0.000           2.000
+c3-c3-n -c2   6    0.000         0.000           2.000
+h1-c3-n -c2   6    0.000         0.000           2.000
+c2-c3-n -c2   6    0.000         0.000           2.000
+c3-c3-c3-c3   1    0.180         0.000          -3.000
+c3-c3-c3-c3   1    0.250       180.000          -2.000
+c3-c3-c3-c3   1    0.200       180.000           1.000
+
+IMPROPER
+cl-n -Pd-n          1.1          180.0         2.0          Using the default value
+Pd-c2-n -c3         1.1          180.0         2.0          Using the default value
+c3-ha-c2-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 47.1 (use general term))
+c3-n -c2-s          1.1          180.0         2.0          Using the default value
+
+NONBON
+  Pd          0.0000  0.0000             ATTN, need revision
+  cl          1.9480  0.2650
+  s           2.0000  0.2500
+  n           1.8240  0.1700
+  c3          1.9080  0.1094
+  hc          1.4870  0.0157
+  h1          1.3870  0.0157
+  c2          1.9080  0.0860
+  ha          1.4590  0.0150
+
+
+

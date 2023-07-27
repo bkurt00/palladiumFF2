@@ -1,0 +1,140 @@
+2023-07-27 18:02:49,849 [INFO] - ----->ABATIK.mol2  has been converted to the amber gaff type: ABATIK_g.mol2.
+2023-07-27 18:02:49,850 [INFO] - 
+
+2023-07-27 18:02:49,859 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{1: [[2, 'p5'], [3, 'os'], [4, 'na'], [5, 'n3']]} --pd id: [1]
+2023-07-27 18:02:49,859 [INFO] - 
+
+2023-07-27 18:02:49,860 [INFO] - step 1: b= [2, 'p5', 3, 'os', 4, 'na', 5, 'n3']
+2023-07-27 18:02:49,861 [INFO] - 
+
+2023-07-27 18:02:49,861 [INFO] - step 2 c= ['p5', 'os', 'na', 'n3']
+2023-07-27 18:02:49,862 [INFO] - 
+
+2023-07-27 18:02:49,862 [INFO] - step 3: d= [2, 3, 4, 5]
+2023-07-27 18:02:49,862 [INFO] - 
+
+2023-07-27 18:02:49,866 [INFO] - 2-1-3 are cis. Angle is: 94.32 derece.
+2023-07-27 18:02:49,867 [INFO] - 
+
+2023-07-27 18:02:49,871 [INFO] - 2-1-4 are cis. Angle is: 105.91 derece.
+2023-07-27 18:02:49,872 [INFO] - 
+
+2023-07-27 18:02:49,883 [INFO] - 3-1-5 are cis. Angle is: 77.88 derece.
+2023-07-27 18:02:49,883 [INFO] - 
+
+2023-07-27 18:02:49,887 [INFO] - 4-1-5 are cis. Angle is: 81.97 derece.
+2023-07-27 18:02:49,888 [INFO] - 
+
+2023-07-27 18:02:49,889 [INFO] - Connections: [(2, 3), (2, 4), (3, 5), (4, 5)]
+2023-07-27 18:02:49,889 [INFO] - 
+
+2023-07-27 18:02:49,889 [INFO] - Sequence:
+2023-07-27 18:02:49,890 [INFO] -  
+2023-07-27 18:02:49,890 [INFO] - [2, 3, 5, 4]
+2023-07-27 18:02:49,891 [INFO] - 
+
+2023-07-27 18:02:49,892 [INFO] - step 4: saf= ['p', 'o', 'n', 'n']
+2023-07-27 18:02:49,893 [INFO] - 
+
+2023-07-27 18:02:49,894 [INFO] - ----->Atom types according to numbering sytem: ['1p', '2o', '3n', '4n']
+2023-07-27 18:02:49,894 [INFO] - 
+
+2023-07-27 18:02:49,895 [INFO] - ----->In your mol2 file these atoms will be replaced: [2, 3, 5, 4]
+2023-07-27 18:02:49,895 [INFO] - 
+
+2023-07-27 18:02:49,905 [INFO] - for g.mol2: gaff_sequenced_dict={'2': 'p5', '3': 'os', '4': 'na', '5': 'n3'}
+2023-07-27 18:02:49,906 [INFO] - 
+
+2023-07-27 18:02:49,906 [INFO] - for g2.mol2: g2_changes={'2': '1p', '3': '2o', '4': '4n', '5': '3n'}
+2023-07-27 18:02:49,907 [INFO] - 
+
+2023-07-27 18:02:49,907 [INFO] - ----->Numbering/GAFF Dictionary:{'1p': 'p5', '2o': 'os', '4n': 'na', '3n': 'n3'}
+2023-07-27 18:02:49,908 [INFO] - 
+
+2023-07-27 18:02:50,784 [INFO] - 'parmchk2 -i ABATIK_g.mol2 -f mol2 -o ABATIK_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:02:50,785 [INFO] - 
+
+2023-07-27 18:02:51,634 [INFO] - 'parmchk2 -i ABATIK_g2.mol2 -f mol2 -o ABATIK_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:02:51,635 [INFO] - 
+
+2023-07-27 18:02:52,888 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:02:52,889 [INFO] - 
+
+2023-07-27 18:02:52,899 [INFO] - ABATIK_vacuum_tleap.txt file created successfully!
+2023-07-27 18:02:52,899 [INFO] - 
+
+2023-07-27 18:02:52,905 [INFO] - ABATIK_water_tleap.txt file created successfully!
+2023-07-27 18:02:52,905 [INFO] - 
+
+2023-07-27 18:02:54,389 [INFO] - 'ABATIK_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:02:54,390 [INFO] - 
+
+2023-07-27 18:02:55,240 [INFO] - 'ABATIK_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:02:55,240 [INFO] - 
+
+2023-07-27 18:02:55,253 [INFO] - 'ABATIK_g.mol2' moved to 'ABATIK_files/ABATIK_g.mol2'.
+2023-07-27 18:02:55,254 [INFO] - 
+
+2023-07-27 18:02:55,264 [INFO] - 'ABATIK_g2.mol2' moved to 'ABATIK_files/ABATIK_g2.mol2'.
+2023-07-27 18:02:55,264 [INFO] - 
+
+2023-07-27 18:02:55,274 [INFO] - 'ABATIK_temp.dat' moved to 'ABATIK_files/ABATIK_temp.dat'.
+2023-07-27 18:02:55,275 [INFO] - 
+
+2023-07-27 18:02:55,284 [INFO] - 'ABATIK_check.dat' moved to 'ABATIK_files/ABATIK_check.dat'.
+2023-07-27 18:02:55,285 [INFO] - 
+
+2023-07-27 18:02:55,294 [INFO] - 'ABATIK.frcmod' moved to 'ABATIK_files/ABATIK.frcmod'.
+2023-07-27 18:02:55,295 [INFO] - 
+
+2023-07-27 18:02:55,306 [INFO] - 'ABATIK_vacuum_tleap.txt' moved to 'ABATIK_files/ABATIK_vacuum_tleap.txt'.
+2023-07-27 18:02:55,306 [INFO] - 
+
+2023-07-27 18:02:55,318 [INFO] - 'ABATIK_water_tleap.txt' moved to 'ABATIK_files/ABATIK_water_tleap.txt'.
+2023-07-27 18:02:55,319 [INFO] - 
+
+2023-07-27 18:02:55,327 [INFO] - 'ABATIK.log' moved to 'ABATIK_files/ABATIK.log'.
+2023-07-27 18:02:55,328 [INFO] - 
+
+2023-07-27 18:02:55,338 [INFO] - 'ABATIK.mol2' moved to 'ABATIK_files/ABATIK.mol2'.
+2023-07-27 18:02:55,339 [INFO] - 
+
+2023-07-27 18:02:55,347 [INFO] - 'ABATIK_water.top' moved to 'ABATIK_files/ABATIK_water.top'.
+2023-07-27 18:02:55,348 [INFO] - 
+
+2023-07-27 18:02:55,356 [INFO] - 'ABATIK_vacuum.top' moved to 'ABATIK_files/ABATIK_vacuum.top'.
+2023-07-27 18:02:55,356 [INFO] - 
+
+2023-07-27 18:02:55,364 [INFO] - 'ABATIK_vacuum.crd' moved to 'ABATIK_files/ABATIK_vacuum.crd'.
+2023-07-27 18:02:55,364 [INFO] - 
+
+2023-07-27 18:02:55,372 [INFO] - 'ABATIK_water.crd' moved to 'ABATIK_files/ABATIK_water.crd'.
+2023-07-27 18:02:55,373 [INFO] - 
+
+2023-07-27 18:02:55,376 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:02:55,376 [INFO] - 
+
+2023-07-27 18:02:55,379 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:02:55,380 [INFO] - 
+
+2023-07-27 18:02:55,381 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:02:55,381 [INFO] - 
+
+2023-07-27 18:02:55,384 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:02:55,385 [INFO] - 
+
+2023-07-27 18:02:55,389 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:02:55,389 [INFO] - 
+
+2023-07-27 18:02:55,393 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:02:55,394 [INFO] - 
+
+2023-07-27 18:02:55,397 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:02:55,398 [INFO] - 
+
+2023-07-27 18:02:55,402 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:02:55,403 [INFO] - 
+
+2023-07-27 18:02:55,403 [INFO] - **********All processes are finished. Your pd force field file is: ABATIK_files/ABATIK.frcmod. Check the ABATIK_files/ABATIK_vacuum_tleap.txt  and ABATIK_files/ABATIK_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABATIK_files/ABATIK_g2.mol2 FILE... **************
+2023-07-27 18:02:55,404 [INFO] - 
+

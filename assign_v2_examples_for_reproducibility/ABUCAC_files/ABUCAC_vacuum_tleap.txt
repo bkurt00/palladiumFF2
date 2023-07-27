@@ -1,0 +1,8 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABUCAC_g2.mol2
+a=loadmol2 ABUCAC_g2.mol2
+source leaprc.gaff2
+loadamberparams ABUCAC.frcmod
+charge a
+check a
+saveamberparm a ABUCAC_vacuum.top ABUCAC_vacuum.crd
+quit

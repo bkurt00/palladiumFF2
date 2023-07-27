@@ -1,0 +1,10 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABUCAC_g2.mol2
+a=loadmol2 ABUCAC_g2.mol2
+source leaprc.gaff2
+loadamberparams ABUCAC.frcmod
+source leaprc.water.OPC
+solvatebox a OPCBOX 12.0
+charge a
+check a
+saveamberparm a ABUCAC_water.top ABUCAC_water.crd
+quit

@@ -1,0 +1,103 @@
+Remark line goes here
+MASS
+Pd 106.400       0.000               ATTN, no polarizability parameter
+p5 30.970        1.538
+ss 32.060        2.900
+os 16.000        0.465
+ca 12.010        0.360
+ha 1.008         0.135
+c3 12.010        0.878
+hc 1.008         0.135
+
+BOND
+Pd-p5    0.00   0.000       ATTN, need revision
+Pd-ss    0.00   0.000       ATTN, need revision
+Pd-ca    0.00   0.000       ATTN, need revision
+os-p5  330.60   1.615
+c3-p5  243.30   1.839
+ca-ss  249.80   1.781
+ca-os  376.60   1.370
+ca-ca  461.10   1.398
+ca-ha  345.80   1.086
+c3-c3  300.90   1.538
+c3-hc  330.60   1.097
+
+ANGLE
+Pd-p5-os    0.000       0.000   ATTN, need revision
+Pd-p5-c3    0.000       0.000   ATTN, need revision
+Pd-ss-ca    0.000       0.000   ATTN, need revision
+Pd-ca-ca    0.000       0.000   ATTN, need revision
+p5-Pd-p5    0.000       0.000   ATTN, need revision
+p5-Pd-ss    0.000       0.000   ATTN, need revision
+ca-Pd-p5    0.000       0.000   ATTN, need revision
+ca-os-p5   77.700     123.180
+c3-c3-p5   77.000     112.020
+ca-Pd-ss    0.000       0.000   ATTN, need revision
+ca-ca-ss   61.600     120.060
+c3-p5-os   40.700     100.770
+ca-ca-os   69.600     119.200
+ca-ca-ca   66.600     120.020
+ca-ca-ha   48.200     119.880
+c3-p5-c3   36.500     106.000
+c3-c3-hc   46.300     109.800
+c3-c3-c3   62.900     111.510
+hc-c3-hc   39.400     107.580
+
+DIHE
+ca-os-p5-Pd   3    2.400         0.000           2.000
+c3-c3-p5-Pd   9    0.200         0.000           3.000
+ca-ca-ss-Pd   2    0.800       180.000           2.000
+Pd-ca-ca-os   4   14.500       180.000           2.000
+Pd-ca-ca-ca   4   14.500       180.000           2.000
+p5-Pd-p5-os   1    0.000         0.000           2.000      ATTN, need revision
+p5-Pd-p5-c3   1    0.000         0.000           2.000      ATTN, need revision
+p5-Pd-p5-c3   0    0.000         0.000           0.000
+p5-Pd-ss-ca   1    0.000         0.000           2.000      ATTN, need revision
+p5-Pd-ca-ca   1    0.000         0.000           2.000      ATTN, need revision
+p5-Pd-ca-ca   0    0.000         0.000           0.000
+ca-ca-os-p5   1    1.750       180.000           2.000
+hc-c3-c3-p5   9    1.400         0.000           3.000
+p5-Pd-p5-os   0    0.000         0.000           0.000
+p5-Pd-ss-ca   0    0.000         0.000           0.000
+ss-Pd-p5-os   1    0.000         0.000           2.000      ATTN, need revision
+ss-Pd-p5-c3   1    0.000         0.000           2.000      ATTN, need revision
+ss-Pd-p5-c3   0    0.000         0.000           0.000
+ss-Pd-p5-os   0    0.000         0.000           0.000
+ss-Pd-ca-ca   1    0.000         0.000           2.000      ATTN, need revision
+ss-Pd-ca-ca   0    0.000         0.000           0.000
+ha-ca-ca-ss   4   14.500       180.000           2.000
+ca-ca-ca-ss   4   14.500       180.000           2.000
+c3-c3-p5-os   9    0.200         0.000           3.000
+ha-ca-ca-os   4   14.500       180.000           2.000
+ca-ca-ca-os   4   14.500       180.000           2.000
+ca-Pd-p5-os   1    0.000         0.000           2.000      ATTN, need revision
+ca-Pd-p5-c3   1    0.000         0.000           2.000      ATTN, need revision
+ca-Pd-p5-c3   0    0.000         0.000           0.000
+ca-Pd-p5-os   0    0.000         0.000           0.000
+ca-Pd-ss-ca   1    0.000         0.000           2.000      ATTN, need revision
+ca-ca-ca-ha   4   14.500       180.000           2.000
+ca-ca-ca-ca   4   14.500       180.000           2.000
+ha-ca-ca-ha   4   14.500       180.000           2.000
+ca-os-p5-c3   3    2.400         0.000           2.000
+c3-c3-p5-c3   9    0.200         0.000           3.000
+c3-c3-c3-hc   1    0.160         0.000           3.000
+
+IMPROPER
+p5-p5-Pd-ss         1.1          180.0         2.0          Using the default value
+Pd-ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-ca-ca-os         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+ca-ca-ca-ss         1.1          180.0         2.0          Using the default value
+
+NONBON
+  Pd          0.0000  0.0000             ATTN, need revision
+  p5          2.1000  0.2000
+  ss          2.0000  0.2500
+  os          1.6837  0.1700
+  ca          1.9080  0.0860
+  ha          1.4590  0.0150
+  c3          1.9080  0.1094
+  hc          1.4870  0.0157
+
+
+

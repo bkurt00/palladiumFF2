@@ -1,0 +1,140 @@
+2023-07-27 18:03:39,667 [INFO] - ----->ABUCAC.mol2  has been converted to the amber gaff type: ABUCAC_g.mol2.
+2023-07-27 18:03:39,668 [INFO] - 
+
+2023-07-27 18:03:39,675 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{1: [[2, 'cl'], [3, 'cl'], [4, 'p5'], [5, 'p5']]} --pd id: [1]
+2023-07-27 18:03:39,676 [INFO] - 
+
+2023-07-27 18:03:39,677 [INFO] - step 1: b= [2, 'cl', 3, 'cl', 4, 'p5', 5, 'p5']
+2023-07-27 18:03:39,677 [INFO] - 
+
+2023-07-27 18:03:39,678 [INFO] - step 2 c= ['cl', 'cl', 'p5', 'p5']
+2023-07-27 18:03:39,678 [INFO] - 
+
+2023-07-27 18:03:39,679 [INFO] - step 3: d= [2, 3, 4, 5]
+2023-07-27 18:03:39,679 [INFO] - 
+
+2023-07-27 18:03:39,683 [INFO] - 2-1-3 are cis. Angle is: 87.57 derece.
+2023-07-27 18:03:39,683 [INFO] - 
+
+2023-07-27 18:03:39,691 [INFO] - 2-1-5 are cis. Angle is: 86.40 derece.
+2023-07-27 18:03:39,691 [INFO] - 
+
+2023-07-27 18:03:39,695 [INFO] - 3-1-4 are cis. Angle is: 91.42 derece.
+2023-07-27 18:03:39,695 [INFO] - 
+
+2023-07-27 18:03:39,701 [INFO] - 4-1-5 are cis. Angle is: 94.18 derece.
+2023-07-27 18:03:39,702 [INFO] - 
+
+2023-07-27 18:03:39,702 [INFO] - Connections: [(2, 3), (2, 5), (3, 4), (4, 5)]
+2023-07-27 18:03:39,703 [INFO] - 
+
+2023-07-27 18:03:39,704 [INFO] - Sequence:
+2023-07-27 18:03:39,704 [INFO] -  
+2023-07-27 18:03:39,705 [INFO] - [2, 3, 4, 5]
+2023-07-27 18:03:39,705 [INFO] - 
+
+2023-07-27 18:03:39,707 [INFO] - step 4: saf= ['c', 'c', 'p', 'p']
+2023-07-27 18:03:39,707 [INFO] - 
+
+2023-07-27 18:03:39,708 [INFO] - ----->Atom types according to numbering sytem: ['1c', '2c', '3p', '4p']
+2023-07-27 18:03:39,708 [INFO] - 
+
+2023-07-27 18:03:39,709 [INFO] - ----->In your mol2 file these atoms will be replaced: [2, 3, 4, 5]
+2023-07-27 18:03:39,709 [INFO] - 
+
+2023-07-27 18:03:39,718 [INFO] - for g.mol2: gaff_sequenced_dict={'2': 'cl', '3': 'cl', '4': 'p5', '5': 'p5'}
+2023-07-27 18:03:39,718 [INFO] - 
+
+2023-07-27 18:03:39,719 [INFO] - for g2.mol2: g2_changes={'2': '1c', '3': '2c', '4': '3p', '5': '4p'}
+2023-07-27 18:03:39,720 [INFO] - 
+
+2023-07-27 18:03:39,721 [INFO] - ----->Numbering/GAFF Dictionary:{'1c': 'cl', '2c': 'cl', '3p': 'p5', '4p': 'p5'}
+2023-07-27 18:03:39,722 [INFO] - 
+
+2023-07-27 18:03:40,683 [INFO] - 'parmchk2 -i ABUCAC_g.mol2 -f mol2 -o ABUCAC_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:40,683 [INFO] - 
+
+2023-07-27 18:03:41,619 [INFO] - 'parmchk2 -i ABUCAC_g2.mol2 -f mol2 -o ABUCAC_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:41,620 [INFO] - 
+
+2023-07-27 18:03:42,872 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:03:42,873 [INFO] - 
+
+2023-07-27 18:03:42,882 [INFO] - ABUCAC_vacuum_tleap.txt file created successfully!
+2023-07-27 18:03:42,883 [INFO] - 
+
+2023-07-27 18:03:42,888 [INFO] - ABUCAC_water_tleap.txt file created successfully!
+2023-07-27 18:03:42,888 [INFO] - 
+
+2023-07-27 18:03:44,366 [INFO] - 'ABUCAC_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:44,367 [INFO] - 
+
+2023-07-27 18:03:45,198 [INFO] - 'ABUCAC_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:45,199 [INFO] - 
+
+2023-07-27 18:03:45,211 [INFO] - 'ABUCAC_g.mol2' moved to 'ABUCAC_files/ABUCAC_g.mol2'.
+2023-07-27 18:03:45,212 [INFO] - 
+
+2023-07-27 18:03:45,222 [INFO] - 'ABUCAC_g2.mol2' moved to 'ABUCAC_files/ABUCAC_g2.mol2'.
+2023-07-27 18:03:45,222 [INFO] - 
+
+2023-07-27 18:03:45,231 [INFO] - 'ABUCAC_temp.dat' moved to 'ABUCAC_files/ABUCAC_temp.dat'.
+2023-07-27 18:03:45,232 [INFO] - 
+
+2023-07-27 18:03:45,243 [INFO] - 'ABUCAC_check.dat' moved to 'ABUCAC_files/ABUCAC_check.dat'.
+2023-07-27 18:03:45,243 [INFO] - 
+
+2023-07-27 18:03:45,255 [INFO] - 'ABUCAC.frcmod' moved to 'ABUCAC_files/ABUCAC.frcmod'.
+2023-07-27 18:03:45,256 [INFO] - 
+
+2023-07-27 18:03:45,267 [INFO] - 'ABUCAC_vacuum_tleap.txt' moved to 'ABUCAC_files/ABUCAC_vacuum_tleap.txt'.
+2023-07-27 18:03:45,267 [INFO] - 
+
+2023-07-27 18:03:45,277 [INFO] - 'ABUCAC_water_tleap.txt' moved to 'ABUCAC_files/ABUCAC_water_tleap.txt'.
+2023-07-27 18:03:45,278 [INFO] - 
+
+2023-07-27 18:03:45,286 [INFO] - 'ABUCAC.log' moved to 'ABUCAC_files/ABUCAC.log'.
+2023-07-27 18:03:45,287 [INFO] - 
+
+2023-07-27 18:03:45,295 [INFO] - 'ABUCAC.mol2' moved to 'ABUCAC_files/ABUCAC.mol2'.
+2023-07-27 18:03:45,296 [INFO] - 
+
+2023-07-27 18:03:45,304 [INFO] - 'ABUCAC_water.top' moved to 'ABUCAC_files/ABUCAC_water.top'.
+2023-07-27 18:03:45,305 [INFO] - 
+
+2023-07-27 18:03:45,313 [INFO] - 'ABUCAC_vacuum.top' moved to 'ABUCAC_files/ABUCAC_vacuum.top'.
+2023-07-27 18:03:45,314 [INFO] - 
+
+2023-07-27 18:03:45,322 [INFO] - 'ABUCAC_vacuum.crd' moved to 'ABUCAC_files/ABUCAC_vacuum.crd'.
+2023-07-27 18:03:45,322 [INFO] - 
+
+2023-07-27 18:03:45,331 [INFO] - 'ABUCAC_water.crd' moved to 'ABUCAC_files/ABUCAC_water.crd'.
+2023-07-27 18:03:45,331 [INFO] - 
+
+2023-07-27 18:03:45,335 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:03:45,336 [INFO] - 
+
+2023-07-27 18:03:45,340 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:03:45,340 [INFO] - 
+
+2023-07-27 18:03:45,341 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:03:45,342 [INFO] - 
+
+2023-07-27 18:03:45,345 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:03:45,345 [INFO] - 
+
+2023-07-27 18:03:45,348 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:03:45,349 [INFO] - 
+
+2023-07-27 18:03:45,353 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:03:45,354 [INFO] - 
+
+2023-07-27 18:03:45,357 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:03:45,358 [INFO] - 
+
+2023-07-27 18:03:45,361 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:03:45,361 [INFO] - 
+
+2023-07-27 18:03:45,362 [INFO] - **********All processes are finished. Your pd force field file is: ABUCAC_files/ABUCAC.frcmod. Check the ABUCAC_files/ABUCAC_vacuum_tleap.txt  and ABUCAC_files/ABUCAC_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABUCAC_files/ABUCAC_g2.mol2 FILE... **************
+2023-07-27 18:03:45,362 [INFO] - 
+

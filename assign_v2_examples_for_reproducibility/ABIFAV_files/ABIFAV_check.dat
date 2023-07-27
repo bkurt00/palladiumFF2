@@ -1,0 +1,96 @@
+Remark line goes here
+MASS
+Pd 106.400       0.000               ATTN, no polarizability parameter
+os 16.000        0.465
+o  16.000        0.434
+nx 14.010        0.530               same as n4 
+hn 1.008         0.161
+c  12.010        0.616
+c3 12.010        0.878
+hc 1.008         0.135
+hx 1.008         0.135
+
+BOND
+Pd-os    0.00   0.000       ATTN, need revision
+Pd-nx    0.00   0.000       ATTN, need revision
+c -os  390.80   1.358
+c -o   637.70   1.218
+hn-nx  373.20   1.030       same as hn-n4, penalty score=  0.0
+c3-nx  283.30   1.511       same as c3-n4, penalty score=  0.0
+c -c3  313.00   1.524
+c3-c3  300.90   1.538
+c3-hc  330.60   1.097
+c3-hx  338.70   1.091
+
+ANGLE
+Pd-os-c     0.000       0.000   ATTN, need revision
+Pd-nx-hn    0.000       0.000   ATTN, need revision
+Pd-nx-c3    0.000       0.000   ATTN, need revision
+nx-Pd-os    0.000       0.000   ATTN, need revision
+os-Pd-os    0.000       0.000   ATTN, need revision
+o -c -os   75.300     123.250
+c3-c -os   68.900     110.720
+c3-c -o    67.400     123.200
+nx-Pd-nx    0.000       0.000   ATTN, need revision
+hx-c3-nx   48.600     108.010   same as hx-c3-n4, penalty score=  0.0
+c3-c3-nx   64.200     114.210   same as c3-c3-n4, penalty score=  0.0
+c3-nx-hn   45.900     110.110   same as c3-n4-hn, penalty score=  0.0
+c -c3-c3   63.300     111.040
+c3-c3-hc   46.300     109.800
+c3-c3-c3   62.900     111.510
+hc-c3-hc   39.400     107.580
+c3-nx-c3   62.600     109.660   same as c3-n4-c3, penalty score=  0.0
+c3-c3-hx   46.200     110.560
+
+DIHE
+o -c -os-Pd   2    5.400       180.000           2.000
+c3-c -os-Pd   2    5.400       180.000           2.000
+hx-c3-nx-Pd   9    1.400         0.000           3.000      same as X -c3-n4-X , penalty score=  0.0
+c3-c3-nx-Pd   9    1.400         0.000           3.000      same as X -c3-n4-X , penalty score=  0.0
+os-Pd-nx-hn   1    0.000         0.000           2.000      ATTN, need revision
+os-Pd-nx-c3   1    0.000         0.000           2.000      ATTN, need revision
+os-Pd-nx-c3   0    0.000         0.000           0.000
+os-Pd-os-c    1    0.000         0.000           2.000      ATTN, need revision
+os-Pd-nx-hn   0    0.000         0.000           0.000
+os-c -c3-c3   6    0.000       180.000           2.000
+o -c -c3-c3   6    0.000       180.000           2.000
+nx-Pd-os-c    1    0.000         0.000           2.000      ATTN, need revision
+nx-Pd-os-c    0    0.000         0.000           0.000
+nx-Pd-nx-hn   1    0.000         0.000           2.000      ATTN, need revision
+nx-Pd-nx-c3   1    0.000         0.000           2.000      ATTN, need revision
+nx-Pd-nx-c3   0    0.000         0.000           0.000
+hc-c3-c3-nx   9    1.400         0.000           3.000
+c3-c3-c3-nx   9    1.400         0.000           3.000
+hx-c3-nx-hn   9    1.400         0.000           3.000      same as X -c3-n4-X , penalty score=  0.0
+c3-c3-nx-hn   9    1.400         0.000           3.000      same as X -c3-n4-X , penalty score=  0.0
+c -c3-c3-hc   9    1.400         0.000           3.000
+c -c3-c3-c3   9    1.400         0.000           3.000
+c3-c3-c3-hc   1    0.160         0.000           3.000
+c3-c3-c3-c3   1    0.180         0.000          -3.000
+c3-c3-c3-c3   1    0.250       180.000          -2.000
+c3-c3-c3-c3   1    0.200       180.000           1.000
+hc-c3-c3-hc   1    0.150         0.000           3.000
+hx-c3-nx-c3   9    1.400         0.000           3.000      same as X -c3-n4-X , penalty score=  0.0
+c3-c3-nx-c3   9    1.400         0.000           3.000      same as c3-c3-n4-c3, penalty score=  0.0
+hc-c3-c3-hx   9    1.400         0.000           3.000
+c3-c3-c3-hx   9    1.400         0.000           3.000
+os-Pd-os-c    0    0.000         0.000           0.000
+nx-Pd-nx-hn   0    0.000         0.000           0.000
+
+IMPROPER
+nx-os-Pd-os         1.1          180.0         2.0          Using the default value
+c3-o -c -os         1.1          180.0         2.0          Using the default value
+
+NONBON
+  Pd          0.0000  0.0000             ATTN, need revision
+  os          1.6837  0.1700
+  o           1.6612  0.2100
+  nx          1.8240  0.1700             same as n4 
+  hn          0.6000  0.0157
+  c           1.9080  0.0860
+  c3          1.9080  0.1094
+  hc          1.4870  0.0157
+  hx          1.1000  0.0157
+
+
+

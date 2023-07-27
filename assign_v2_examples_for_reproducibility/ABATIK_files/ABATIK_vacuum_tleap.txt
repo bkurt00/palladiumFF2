@@ -1,0 +1,8 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABATIK_g2.mol2
+a=loadmol2 ABATIK_g2.mol2
+source leaprc.gaff2
+loadamberparams ABATIK.frcmod
+charge a
+check a
+saveamberparm a ABATIK_vacuum.top ABATIK_vacuum.crd
+quit

@@ -1,0 +1,10 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABEVEL_g2.mol2
+a=loadmol2 ABEVEL_g2.mol2
+source leaprc.gaff2
+loadamberparams ABEVEL.frcmod
+source leaprc.water.OPC
+solvatebox a OPCBOX 12.0
+charge a
+check a
+saveamberparm a ABEVEL_water.top ABEVEL_water.crd
+quit

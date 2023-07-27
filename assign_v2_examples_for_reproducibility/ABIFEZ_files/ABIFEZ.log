@@ -1,0 +1,140 @@
+2023-07-27 18:03:23,235 [INFO] - ----->ABIFEZ.mol2  has been converted to the amber gaff type: ABIFEZ_g.mol2.
+2023-07-27 18:03:23,236 [INFO] - 
+
+2023-07-27 18:03:23,245 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{1: [[2, 'os'], [4, 'nx'], [40, 'os'], [42, 'nx']]} --pd id: [1]
+2023-07-27 18:03:23,245 [INFO] - 
+
+2023-07-27 18:03:23,246 [INFO] - step 1: b= [2, 'os', 4, 'nx', 40, 'os', 42, 'nx']
+2023-07-27 18:03:23,246 [INFO] - 
+
+2023-07-27 18:03:23,247 [INFO] - step 2 c= ['os', 'nx', 'os', 'nx']
+2023-07-27 18:03:23,247 [INFO] - 
+
+2023-07-27 18:03:23,248 [INFO] - step 3: d= [2, 4, 40, 42]
+2023-07-27 18:03:23,248 [INFO] - 
+
+2023-07-27 18:03:23,252 [INFO] - 2-1-4 are cis. Angle is: 87.28 derece.
+2023-07-27 18:03:23,253 [INFO] - 
+
+2023-07-27 18:03:23,260 [INFO] - 2-1-42 are cis. Angle is: 92.72 derece.
+2023-07-27 18:03:23,261 [INFO] - 
+
+2023-07-27 18:03:23,264 [INFO] - 4-1-40 are cis. Angle is: 92.72 derece.
+2023-07-27 18:03:23,264 [INFO] - 
+
+2023-07-27 18:03:23,271 [INFO] - 40-1-42 are cis. Angle is: 87.28 derece.
+2023-07-27 18:03:23,271 [INFO] - 
+
+2023-07-27 18:03:23,272 [INFO] - Connections: [(2, 4), (2, 42), (4, 40), (40, 42)]
+2023-07-27 18:03:23,272 [INFO] - 
+
+2023-07-27 18:03:23,272 [INFO] - Sequence:
+2023-07-27 18:03:23,273 [INFO] -  
+2023-07-27 18:03:23,274 [INFO] - [2, 4, 40, 42]
+2023-07-27 18:03:23,274 [INFO] - 
+
+2023-07-27 18:03:23,276 [INFO] - step 4: saf= ['o', 'n', 'o', 'n']
+2023-07-27 18:03:23,277 [INFO] - 
+
+2023-07-27 18:03:23,277 [INFO] - ----->Atom types according to numbering sytem: ['1o', '2n', '3o', '4n']
+2023-07-27 18:03:23,278 [INFO] - 
+
+2023-07-27 18:03:23,278 [INFO] - ----->In your mol2 file these atoms will be replaced: [2, 4, 40, 42]
+2023-07-27 18:03:23,279 [INFO] - 
+
+2023-07-27 18:03:23,286 [INFO] - for g.mol2: gaff_sequenced_dict={'2': 'os', '4': 'nx', '40': 'os', '42': 'nx'}
+2023-07-27 18:03:23,287 [INFO] - 
+
+2023-07-27 18:03:23,287 [INFO] - for g2.mol2: g2_changes={'2': '1o', '4': '2n', '40': '3o', '42': '4n'}
+2023-07-27 18:03:23,288 [INFO] - 
+
+2023-07-27 18:03:23,288 [INFO] - ----->Numbering/GAFF Dictionary:{'1o': 'os', '2n': 'nx', '3o': 'os', '4n': 'nx'}
+2023-07-27 18:03:23,288 [INFO] - 
+
+2023-07-27 18:03:24,124 [INFO] - 'parmchk2 -i ABIFEZ_g.mol2 -f mol2 -o ABIFEZ_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:24,124 [INFO] - 
+
+2023-07-27 18:03:24,971 [INFO] - 'parmchk2 -i ABIFEZ_g2.mol2 -f mol2 -o ABIFEZ_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:24,971 [INFO] - 
+
+2023-07-27 18:03:26,140 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:03:26,141 [INFO] - 
+
+2023-07-27 18:03:26,149 [INFO] - ABIFEZ_vacuum_tleap.txt file created successfully!
+2023-07-27 18:03:26,150 [INFO] - 
+
+2023-07-27 18:03:26,155 [INFO] - ABIFEZ_water_tleap.txt file created successfully!
+2023-07-27 18:03:26,155 [INFO] - 
+
+2023-07-27 18:03:27,512 [INFO] - 'ABIFEZ_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:27,513 [INFO] - 
+
+2023-07-27 18:03:28,357 [INFO] - 'ABIFEZ_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:28,358 [INFO] - 
+
+2023-07-27 18:03:28,369 [INFO] - 'ABIFEZ_g.mol2' moved to 'ABIFEZ_files/ABIFEZ_g.mol2'.
+2023-07-27 18:03:28,370 [INFO] - 
+
+2023-07-27 18:03:28,379 [INFO] - 'ABIFEZ_g2.mol2' moved to 'ABIFEZ_files/ABIFEZ_g2.mol2'.
+2023-07-27 18:03:28,380 [INFO] - 
+
+2023-07-27 18:03:28,389 [INFO] - 'ABIFEZ_temp.dat' moved to 'ABIFEZ_files/ABIFEZ_temp.dat'.
+2023-07-27 18:03:28,390 [INFO] - 
+
+2023-07-27 18:03:28,399 [INFO] - 'ABIFEZ_check.dat' moved to 'ABIFEZ_files/ABIFEZ_check.dat'.
+2023-07-27 18:03:28,400 [INFO] - 
+
+2023-07-27 18:03:28,407 [INFO] - 'ABIFEZ.frcmod' moved to 'ABIFEZ_files/ABIFEZ.frcmod'.
+2023-07-27 18:03:28,408 [INFO] - 
+
+2023-07-27 18:03:28,417 [INFO] - 'ABIFEZ_vacuum_tleap.txt' moved to 'ABIFEZ_files/ABIFEZ_vacuum_tleap.txt'.
+2023-07-27 18:03:28,418 [INFO] - 
+
+2023-07-27 18:03:28,427 [INFO] - 'ABIFEZ_water_tleap.txt' moved to 'ABIFEZ_files/ABIFEZ_water_tleap.txt'.
+2023-07-27 18:03:28,428 [INFO] - 
+
+2023-07-27 18:03:28,434 [INFO] - 'ABIFEZ.log' moved to 'ABIFEZ_files/ABIFEZ.log'.
+2023-07-27 18:03:28,434 [INFO] - 
+
+2023-07-27 18:03:28,442 [INFO] - 'ABIFEZ.mol2' moved to 'ABIFEZ_files/ABIFEZ.mol2'.
+2023-07-27 18:03:28,442 [INFO] - 
+
+2023-07-27 18:03:28,449 [INFO] - 'ABIFEZ_water.top' moved to 'ABIFEZ_files/ABIFEZ_water.top'.
+2023-07-27 18:03:28,450 [INFO] - 
+
+2023-07-27 18:03:28,456 [INFO] - 'ABIFEZ_vacuum.top' moved to 'ABIFEZ_files/ABIFEZ_vacuum.top'.
+2023-07-27 18:03:28,456 [INFO] - 
+
+2023-07-27 18:03:28,463 [INFO] - 'ABIFEZ_vacuum.crd' moved to 'ABIFEZ_files/ABIFEZ_vacuum.crd'.
+2023-07-27 18:03:28,464 [INFO] - 
+
+2023-07-27 18:03:28,469 [INFO] - 'ABIFEZ_water.crd' moved to 'ABIFEZ_files/ABIFEZ_water.crd'.
+2023-07-27 18:03:28,470 [INFO] - 
+
+2023-07-27 18:03:28,473 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:03:28,474 [INFO] - 
+
+2023-07-27 18:03:28,477 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:03:28,478 [INFO] - 
+
+2023-07-27 18:03:28,479 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:03:28,479 [INFO] - 
+
+2023-07-27 18:03:28,483 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:03:28,483 [INFO] - 
+
+2023-07-27 18:03:28,486 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:03:28,487 [INFO] - 
+
+2023-07-27 18:03:28,491 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:03:28,491 [INFO] - 
+
+2023-07-27 18:03:28,495 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:03:28,496 [INFO] - 
+
+2023-07-27 18:03:28,499 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:03:28,501 [INFO] - 
+
+2023-07-27 18:03:28,501 [INFO] - **********All processes are finished. Your pd force field file is: ABIFEZ_files/ABIFEZ.frcmod. Check the ABIFEZ_files/ABIFEZ_vacuum_tleap.txt  and ABIFEZ_files/ABIFEZ_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABIFEZ_files/ABIFEZ_g2.mol2 FILE... **************
+2023-07-27 18:03:28,502 [INFO] - 
+
