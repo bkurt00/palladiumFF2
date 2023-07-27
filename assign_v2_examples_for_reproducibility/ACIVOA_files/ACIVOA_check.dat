@@ -1,0 +1,171 @@
+Remark line goes here
+MASS
+Pd 106.400       0.000               ATTN, no polarizability parameter
+cl 35.450        1.910
+na 14.010        0.530
+hn 1.008         0.161
+c2 12.010        0.360
+cc 12.010        0.360
+h4 1.008         0.135
+ca 12.010        0.360
+ha 1.008         0.135
+c3 12.010        0.878
+hc 1.008         0.135
+cd 12.010        0.360
+
+BOND
+Pd-cl    0.00   0.000       ATTN, need revision
+Pd-na    0.00   0.000       ATTN, need revision
+Pd-c2    0.00   0.000       ATTN, need revision
+c2-na  397.40   1.401
+cc-na  425.80   1.380
+ca-na  420.50   1.384
+na-na  453.30   1.401
+hn-na  408.40   1.010
+cd-na  425.80   1.380
+cc-h4  352.00   1.082
+cc-cd  500.90   1.373
+ca-ca  461.10   1.398
+c3-ca  321.00   1.516
+ca-ha  345.80   1.086
+c3-hc  330.60   1.097
+c3-c3  300.90   1.538
+cc-cc  419.80   1.428
+cd-h4  352.00   1.082
+cc-ha  349.10   1.084
+
+ANGLE
+Pd-na-na    0.000       0.000   ATTN, need revision
+Pd-na-cc    0.000       0.000   ATTN, need revision
+Pd-c2-na    0.000       0.000   ATTN, need revision
+cl-Pd-cl    0.000       0.000   ATTN, need revision
+cl-Pd-na    0.000       0.000   ATTN, need revision
+c2-Pd-cl    0.000       0.000   ATTN, need revision
+na-c2-na   73.100     109.330
+h4-cc-na   49.800     120.530
+cd-cc-na   73.400     106.990
+ca-ca-na   69.100     118.340
+c2-Pd-na    0.000       0.000   ATTN, need revision
+hn-na-na   48.294     120.200   Calculated with empirical approach for hn-na-na
+cd-na-na   67.400     117.360
+cc-cc-na   68.600     117.770
+cc-na-na   67.400     117.360
+h4-cd-na   49.800     120.530
+cc-cd-na   73.400     106.990
+cd-na-hn   46.800     125.500
+c2-na-cc   63.300     126.550
+c2-na-ca   63.600     124.970
+c2-na-cd   63.300     126.550
+ca-na-cc   67.400     113.150
+cc-cd-h4   47.300     128.480
+cd-cc-h4   47.300     128.480
+ca-ca-ca   66.600     120.020
+c3-ca-ca   63.500     120.770
+ca-ca-ha   48.200     119.880
+ca-c3-hc   46.800     110.470
+c3-c3-ca   63.100     112.070
+c3-c3-hc   46.300     109.800
+c3-c3-c3   62.900     111.510
+hc-c3-hc   39.400     107.580
+cc-cc-cd   68.200     114.190
+cc-cc-ha   47.100     121.070
+cc-cc-h4   45.900     127.960
+cd-cc-ha   48.500     121.760
+ca-na-cd   67.400     113.150
+
+DIHE
+Pd-na-na-hn   4    3.600         0.000           2.000
+Pd-na-na-cd   4    3.600         0.000           2.000
+h4-cc-na-Pd   4    6.800       180.000           2.000
+cc-cc-na-Pd   4    6.800       180.000           2.000
+Pd-c2-na-cd   4    2.500       180.000           2.000
+Pd-c2-na-ca   4    2.500       180.000           2.000
+cl-Pd-na-na   1    0.000         0.000           2.000      ATTN, need revision
+cl-Pd-na-cc   1    0.000         0.000           2.000      ATTN, need revision
+cl-Pd-c2-na   1    0.000         0.000           2.000      ATTN, need revision
+cl-Pd-c2-na   0    0.000         0.000           0.000
+cl-Pd-na-na   0    0.000         0.000           0.000
+cl-Pd-na-cc   0    0.000         0.000           0.000
+na-c2-na-cd   4    2.500       180.000           2.000
+na-c2-na-ca   4    2.500       180.000           2.000
+na-cc-cd-na   4   16.000       180.000           2.000
+na-cc-cd-h4   4   16.000       180.000           2.000
+ca-ca-ca-na   4   14.500       180.000           2.000
+c3-ca-ca-na   4   14.500       180.000           2.000
+na-Pd-c2-na   1    0.000         0.000           2.000      ATTN, need revision
+na-Pd-c2-na   0    0.000         0.000           0.000
+h4-cd-na-na   4    6.800       180.000           2.000
+cc-cd-na-na   4    6.800       180.000           2.000
+cd-cc-cc-na   4   16.000       180.000           2.000
+ha-cc-cc-na   4   16.000       180.000           2.000
+h4-cc-na-na   4    6.800       180.000           2.000
+cc-cc-na-na   4    6.800       180.000           2.000
+cc-cc-cd-na   4   16.000       180.000           2.000
+ha-cc-cd-na   4   16.000       180.000           2.000
+h4-cd-na-hn   4    6.800       180.000           2.000
+cc-cd-na-hn   4    6.800       180.000           2.000
+c2-Pd-na-na   1    0.000         0.000           2.000      ATTN, need revision
+c2-Pd-na-cc   1    0.000         0.000           2.000      ATTN, need revision
+h4-cc-na-c2   4    6.800       180.000           2.000
+cd-cc-na-c2   4    6.800       180.000           2.000
+ca-ca-na-c2   4    1.200       180.000           2.000
+cc-cd-na-c2   4    6.800       180.000           2.000
+h4-cd-na-c2   4    6.800       180.000           2.000
+Pd-c2-na-cc   4    2.500       180.000           2.000
+na-c2-na-cc   4    2.500       180.000           2.000
+ca-ca-na-cc   4    1.200       180.000           2.000
+h4-cc-cd-na   4   16.000       180.000           2.000
+h4-cc-cd-h4   4   16.000       180.000           2.000
+h4-cc-na-ca   4    6.800       180.000           2.000
+cd-cc-na-ca   4    6.800       180.000           2.000
+ca-ca-ca-ha   4   14.500       180.000           2.000
+ca-ca-ca-ca   4   14.500       180.000           2.000
+hc-c3-ca-ca   6    0.000         0.000           2.000
+c3-c3-ca-ca   6    0.000         0.000           2.000
+c3-ca-ca-ca   4   14.500       180.000           2.000
+ca-c3-c3-hc   9    1.400         0.000           3.000
+ha-ca-ca-ha   4   14.500       180.000           2.000
+c3-ca-ca-ha   4   14.500       180.000           2.000
+hc-c3-c3-hc   1    0.150         0.000           3.000
+c3-c3-c3-hc   1    0.160         0.000           3.000
+cc-na-na-hn   4    3.600         0.000           2.000
+cc-na-na-cd   4    3.600         0.000           2.000
+cd-cc-cc-h4   4   16.000       180.000           2.000
+h4-cc-cc-ha   4   16.000       180.000           2.000
+cc-cc-cd-h4   4   16.000       180.000           2.000
+ha-cc-cd-h4   4   16.000       180.000           2.000
+ca-ca-na-cd   4    1.200       180.000           2.000
+cc-cd-na-ca   4    6.800       180.000           2.000
+h4-cd-na-ca   4    6.800       180.000           2.000
+
+IMPROPER
+cl-cl-Pd-na         1.1          180.0         2.0          Using the default value
+c2-ca-na-cc         1.1          180.0         2.0          Using the default value
+Pd-cc-na-na         1.1          180.0         2.0          Using the default value
+cd-hn-na-na         1.1          180.0         2.0          Using the default value
+Pd-na-c2-na         1.1          180.0         2.0          Using the default value
+cd-h4-cc-na         1.1          180.0         2.0          Using the default value
+ca-ca-ca-na         1.1          180.0         2.0          Using the default value
+c3-ca-ca-ca         1.1          180.0         2.0
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+cc-h4-cc-na         1.1          180.0         2.0          Using the default value
+cc-h4-cd-na         1.1          180.0         2.0          Using the default value
+cc-cd-cc-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 38.9 (use general term))
+c2-ca-na-cd         1.1          180.0         2.0          Using the default value
+
+NONBON
+  Pd          0.0000  0.0000             ATTN, need revision
+  cl          1.9480  0.2650
+  na          1.8240  0.1700
+  hn          0.6000  0.0157
+  c2          1.9080  0.0860
+  cc          1.9080  0.0860
+  h4          1.4090  0.0150
+  ca          1.9080  0.0860
+  ha          1.4590  0.0150
+  c3          1.9080  0.1094
+  hc          1.4870  0.0157
+  cd          1.9080  0.0860
+
+
+

@@ -1,0 +1,8 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABUYIF_g2.mol2
+a=loadmol2 ABUYIF_g2.mol2
+source leaprc.gaff2
+loadamberparams ABUYIF.frcmod
+charge a
+check a
+saveamberparm a ABUYIF_vacuum.top ABUYIF_vacuum.crd
+quit

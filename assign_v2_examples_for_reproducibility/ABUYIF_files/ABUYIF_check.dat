@@ -1,0 +1,77 @@
+Remark line goes here
+MASS
+Pd 106.400       0.000               ATTN, no polarizability parameter
+cl 35.450        1.910
+p5 30.970        1.538
+c3 12.010        0.878
+hc 1.008         0.135
+ca 12.010        0.360
+ha 1.008         0.135
+
+BOND
+Pd-cl    0.00   0.000       ATTN, need revision
+Pd-p5    0.00   0.000       ATTN, need revision
+c3-p5  243.30   1.839
+ca-p5  271.50   1.795
+c3-hc  330.60   1.097
+c3-c3  300.90   1.538
+ca-ca  461.10   1.398
+ca-ha  345.80   1.086
+
+ANGLE
+Pd-p5-c3    0.000       0.000   ATTN, need revision
+Pd-p5-ca    0.000       0.000   ATTN, need revision
+cl-Pd-cl    0.000       0.000   ATTN, need revision
+cl-Pd-p5    0.000       0.000   ATTN, need revision
+p5-Pd-p5    0.000       0.000   ATTN, need revision
+hc-c3-p5   53.300     108.430
+c3-c3-p5   77.000     112.020
+ca-ca-p5   77.400     120.240
+c3-p5-ca   36.500     107.270   same as c3-py-ca, penalty score= 18.0
+c3-c3-hc   46.300     109.800
+hc-c3-hc   39.400     107.580
+ca-p5-ca   37.000     107.900
+ca-ca-ha   48.200     119.880
+ca-ca-ca   66.600     120.020
+
+DIHE
+hc-c3-p5-Pd   9    0.200         0.000           3.000
+c3-c3-p5-Pd   9    0.200         0.000           3.000
+ca-ca-p5-Pd   6    8.800       180.000           2.000
+cl-Pd-p5-c3   1    0.000         0.000           2.000      ATTN, need revision
+cl-Pd-p5-ca   1    0.000         0.000           2.000      ATTN, need revision
+cl-Pd-p5-ca   0    0.000         0.000           0.000
+cl-Pd-p5-c3   0    0.000         0.000           0.000
+p5-Pd-p5-c3   1    0.000         0.000           2.000      ATTN, need revision
+p5-Pd-p5-ca   1    0.000         0.000           2.000      ATTN, need revision
+p5-Pd-p5-ca   0    0.000         0.000           0.000
+p5-c3-c3-p5   9    1.400         0.000           3.000
+hc-c3-c3-p5   9    1.400         0.000           3.000
+ha-ca-ca-p5   4   14.500       180.000           2.000
+ca-ca-ca-p5   4   14.500       180.000           2.000
+p5-Pd-p5-c3   0    0.000         0.000           0.000
+ca-ca-p5-c3   6    8.800       180.000           2.000
+hc-c3-c3-hc   1    0.150         0.000           3.000
+hc-c3-p5-ca   9    0.200         0.000           3.000
+c3-c3-p5-ca   9    0.200         0.000           3.000
+ca-ca-p5-ca   6    8.800       180.000           2.000
+ca-ca-ca-ha   4   14.500       180.000           2.000
+ca-ca-ca-ca   4   14.500       180.000           2.000
+ha-ca-ca-ha   4   14.500       180.000           2.000
+
+IMPROPER
+cl-cl-Pd-p5         1.1          180.0         2.0          Using the default value
+ca-ca-ca-p5         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+
+NONBON
+  Pd          0.0000  0.0000             ATTN, need revision
+  cl          1.9480  0.2650
+  p5          2.1000  0.2000
+  c3          1.9080  0.1094
+  hc          1.4870  0.0157
+  ca          1.9080  0.0860
+  ha          1.4590  0.0150
+
+
+

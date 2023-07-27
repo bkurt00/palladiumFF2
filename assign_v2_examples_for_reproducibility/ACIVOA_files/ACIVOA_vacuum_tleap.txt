@@ -1,0 +1,8 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ACIVOA_g2.mol2
+a=loadmol2 ACIVOA_g2.mol2
+source leaprc.gaff2
+loadamberparams ACIVOA.frcmod
+charge a
+check a
+saveamberparm a ACIVOA_vacuum.top ACIVOA_vacuum.crd
+quit

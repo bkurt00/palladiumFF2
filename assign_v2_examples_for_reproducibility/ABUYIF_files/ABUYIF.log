@@ -1,0 +1,140 @@
+2023-07-27 18:03:48,320 [INFO] - ----->ABUYIF.mol2  has been converted to the amber gaff type: ABUYIF_g.mol2.
+2023-07-27 18:03:48,320 [INFO] - 
+
+2023-07-27 18:03:48,324 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{1: [[2, 'cl'], [3, 'cl'], [4, 'p5'], [5, 'p5']]} --pd id: [1]
+2023-07-27 18:03:48,325 [INFO] - 
+
+2023-07-27 18:03:48,325 [INFO] - step 1: b= [2, 'cl', 3, 'cl', 4, 'p5', 5, 'p5']
+2023-07-27 18:03:48,326 [INFO] - 
+
+2023-07-27 18:03:48,326 [INFO] - step 2 c= ['cl', 'cl', 'p5', 'p5']
+2023-07-27 18:03:48,327 [INFO] - 
+
+2023-07-27 18:03:48,327 [INFO] - step 3: d= [2, 3, 4, 5]
+2023-07-27 18:03:48,328 [INFO] - 
+
+2023-07-27 18:03:48,331 [INFO] - 2-1-3 are cis. Angle is: 91.75 derece.
+2023-07-27 18:03:48,335 [INFO] - 
+
+2023-07-27 18:03:48,343 [INFO] - 2-1-5 are cis. Angle is: 89.69 derece.
+2023-07-27 18:03:48,344 [INFO] - 
+
+2023-07-27 18:03:48,347 [INFO] - 3-1-4 are cis. Angle is: 92.95 derece.
+2023-07-27 18:03:48,348 [INFO] - 
+
+2023-07-27 18:03:48,354 [INFO] - 4-1-5 are cis. Angle is: 85.64 derece.
+2023-07-27 18:03:48,355 [INFO] - 
+
+2023-07-27 18:03:48,355 [INFO] - Connections: [(2, 3), (2, 5), (3, 4), (4, 5)]
+2023-07-27 18:03:48,356 [INFO] - 
+
+2023-07-27 18:03:48,356 [INFO] - Sequence:
+2023-07-27 18:03:48,357 [INFO] -  
+2023-07-27 18:03:48,357 [INFO] - [2, 3, 4, 5]
+2023-07-27 18:03:48,357 [INFO] - 
+
+2023-07-27 18:03:48,359 [INFO] - step 4: saf= ['c', 'c', 'p', 'p']
+2023-07-27 18:03:48,359 [INFO] - 
+
+2023-07-27 18:03:48,360 [INFO] - ----->Atom types according to numbering sytem: ['1c', '2c', '3p', '4p']
+2023-07-27 18:03:48,360 [INFO] - 
+
+2023-07-27 18:03:48,361 [INFO] - ----->In your mol2 file these atoms will be replaced: [2, 3, 4, 5]
+2023-07-27 18:03:48,361 [INFO] - 
+
+2023-07-27 18:03:48,369 [INFO] - for g.mol2: gaff_sequenced_dict={'2': 'cl', '3': 'cl', '4': 'p5', '5': 'p5'}
+2023-07-27 18:03:48,370 [INFO] - 
+
+2023-07-27 18:03:48,370 [INFO] - for g2.mol2: g2_changes={'2': '1c', '3': '2c', '4': '3p', '5': '4p'}
+2023-07-27 18:03:48,371 [INFO] - 
+
+2023-07-27 18:03:48,371 [INFO] - ----->Numbering/GAFF Dictionary:{'1c': 'cl', '2c': 'cl', '3p': 'p5', '4p': 'p5'}
+2023-07-27 18:03:48,372 [INFO] - 
+
+2023-07-27 18:03:49,190 [INFO] - 'parmchk2 -i ABUYIF_g.mol2 -f mol2 -o ABUYIF_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:49,190 [INFO] - 
+
+2023-07-27 18:03:49,993 [INFO] - 'parmchk2 -i ABUYIF_g2.mol2 -f mol2 -o ABUYIF_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:49,993 [INFO] - 
+
+2023-07-27 18:03:51,113 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:03:51,113 [INFO] - 
+
+2023-07-27 18:03:51,122 [INFO] - ABUYIF_vacuum_tleap.txt file created successfully!
+2023-07-27 18:03:51,123 [INFO] - 
+
+2023-07-27 18:03:51,127 [INFO] - ABUYIF_water_tleap.txt file created successfully!
+2023-07-27 18:03:51,127 [INFO] - 
+
+2023-07-27 18:03:52,558 [INFO] - 'ABUYIF_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:52,559 [INFO] - 
+
+2023-07-27 18:03:53,357 [INFO] - 'ABUYIF_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:03:53,357 [INFO] - 
+
+2023-07-27 18:03:53,370 [INFO] - 'ABUYIF_g.mol2' moved to 'ABUYIF_files/ABUYIF_g.mol2'.
+2023-07-27 18:03:53,370 [INFO] - 
+
+2023-07-27 18:03:53,381 [INFO] - 'ABUYIF_g2.mol2' moved to 'ABUYIF_files/ABUYIF_g2.mol2'.
+2023-07-27 18:03:53,381 [INFO] - 
+
+2023-07-27 18:03:53,392 [INFO] - 'ABUYIF_temp.dat' moved to 'ABUYIF_files/ABUYIF_temp.dat'.
+2023-07-27 18:03:53,392 [INFO] - 
+
+2023-07-27 18:03:53,403 [INFO] - 'ABUYIF_check.dat' moved to 'ABUYIF_files/ABUYIF_check.dat'.
+2023-07-27 18:03:53,403 [INFO] - 
+
+2023-07-27 18:03:53,413 [INFO] - 'ABUYIF.frcmod' moved to 'ABUYIF_files/ABUYIF.frcmod'.
+2023-07-27 18:03:53,414 [INFO] - 
+
+2023-07-27 18:03:53,424 [INFO] - 'ABUYIF_vacuum_tleap.txt' moved to 'ABUYIF_files/ABUYIF_vacuum_tleap.txt'.
+2023-07-27 18:03:53,425 [INFO] - 
+
+2023-07-27 18:03:53,436 [INFO] - 'ABUYIF_water_tleap.txt' moved to 'ABUYIF_files/ABUYIF_water_tleap.txt'.
+2023-07-27 18:03:53,437 [INFO] - 
+
+2023-07-27 18:03:53,445 [INFO] - 'ABUYIF.log' moved to 'ABUYIF_files/ABUYIF.log'.
+2023-07-27 18:03:53,445 [INFO] - 
+
+2023-07-27 18:03:53,454 [INFO] - 'ABUYIF.mol2' moved to 'ABUYIF_files/ABUYIF.mol2'.
+2023-07-27 18:03:53,455 [INFO] - 
+
+2023-07-27 18:03:53,464 [INFO] - 'ABUYIF_water.top' moved to 'ABUYIF_files/ABUYIF_water.top'.
+2023-07-27 18:03:53,465 [INFO] - 
+
+2023-07-27 18:03:53,473 [INFO] - 'ABUYIF_vacuum.top' moved to 'ABUYIF_files/ABUYIF_vacuum.top'.
+2023-07-27 18:03:53,474 [INFO] - 
+
+2023-07-27 18:03:53,482 [INFO] - 'ABUYIF_vacuum.crd' moved to 'ABUYIF_files/ABUYIF_vacuum.crd'.
+2023-07-27 18:03:53,483 [INFO] - 
+
+2023-07-27 18:03:53,491 [INFO] - 'ABUYIF_water.crd' moved to 'ABUYIF_files/ABUYIF_water.crd'.
+2023-07-27 18:03:53,492 [INFO] - 
+
+2023-07-27 18:03:53,495 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:03:53,496 [INFO] - 
+
+2023-07-27 18:03:53,499 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:03:53,500 [INFO] - 
+
+2023-07-27 18:03:53,501 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:03:53,501 [INFO] - 
+
+2023-07-27 18:03:53,505 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:03:53,505 [INFO] - 
+
+2023-07-27 18:03:53,509 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:03:53,509 [INFO] - 
+
+2023-07-27 18:03:53,513 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:03:53,514 [INFO] - 
+
+2023-07-27 18:03:53,517 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:03:53,518 [INFO] - 
+
+2023-07-27 18:03:53,521 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:03:53,522 [INFO] - 
+
+2023-07-27 18:03:53,522 [INFO] - **********All processes are finished. Your pd force field file is: ABUYIF_files/ABUYIF.frcmod. Check the ABUYIF_files/ABUYIF_vacuum_tleap.txt  and ABUYIF_files/ABUYIF_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ABUYIF_files/ABUYIF_g2.mol2 FILE... **************
+2023-07-27 18:03:53,523 [INFO] - 
+

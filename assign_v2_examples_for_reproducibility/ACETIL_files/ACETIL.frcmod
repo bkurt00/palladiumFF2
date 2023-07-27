@@ -1,0 +1,98 @@
+Remark line goes here: assign.py
+MASS
+c3 12.01         0.878
+hc 1.008         0.135
+hn 1.008         0.161
+hx 1.008         0.135
+Pd 106.42        2.050
+1c 35.450        1.910 
+2c 35.450        1.910 
+3n 14.010        0.530 
+4n 14.010        0.530 
+
+BOND
+1c-Pd  197.41   2.301  
+2c-Pd  197.41   2.301  
+3n-Pd  124.81   2.081
+4n-Pd  124.81   2.081
+3n-hn  404.60   1.012       same as hn-nh, penalty score=  0.0
+3n-c3  326.60   1.464       same as c3-nh, penalty score=  0.0
+4n-hn  404.60   1.012       same as hn-nh, penalty score=  0.0
+4n-c3  326.60   1.464       same as c3-nh, penalty score=  0.0
+c3-c3  300.90   1.538
+c3-hc  330.60   1.097
+c3-hx  338.70   1.091
+
+ANGLE
+Pd-3n-hn   50.640     105.00
+Pd-3n-c3   138.00     110.72
+Pd-3n-c3   154.22     112.38
+Pd-4n-hn   50.640     105.00
+Pd-4n-c3   134.97     115.91
+Pd-4n-c3   154.22     112.38
+1c-Pd-2c   60.360     90.000
+1c-Pd-2c   64.468     178.60 
+1c-Pd-3n   91.920     177.00
+1c-Pd-4n   87.330     90.000
+2c-Pd-3n   87.330     90.000
+2c-Pd-4n   91.920     177.00
+3n-Pd-4n   113.14     90.080
+3n-c3-c3   66.200     110.460   same as c3-c3-nh, penalty score=  0.0
+hn-3n-hn   40.100     115.120   same as hn-nh-hn, penalty score=  0.0
+c3-3n-hn   46.100     115.990   same as c3-nh-hn, penalty score=  0.0
+4n-c3-c3   66.200     110.460   same as c3-c3-nh, penalty score=  0.0
+4n-c3-hx   49.500     110.010   same as h2-c3-nh, penalty score=  0.3
+hn-4n-hn   40.100     115.120   same as hn-nh-hn, penalty score=  0.0
+c3-4n-hn   46.100     115.990   same as c3-nh-hn, penalty score=  0.0
+c3-c3-hc   46.300     109.800
+c3-c3-hx   46.200     110.560
+c3-c3-c3   62.900     111.510
+hc-c3-hc   39.400     107.580
+hx-c3-hx   39.200     109.750
+
+DIHE
+3n-c3-c3-4n   9    1.400         0.000           3.000
+3n-c3-c3-hc   9    1.400         0.000           3.000
+3n-c3-c3-hx   9    1.400         0.000           3.000
+4n-c3-c3-c3   9    1.400         0.000           3.000
+Pd-3n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+Pd-4n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+Pd-4n-c3-hx   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c3-3n-Pd-1c   0    0.000         0.000           0.000
+c3-3n-Pd-2c   0    0.000         0.000           0.000
+c3-3n-Pd-4n   0    0.000         0.000           0.000
+c3-4n-Pd-1c   0    0.000         0.000           0.000
+c3-4n-Pd-2c   0    0.000         0.000           0.000
+c3-4n-Pd-3n   0    0.000         0.000           0.000
+c3-c3-c3-hc   1    0.160         0.000           3.000
+c3-c3-c3-hx   9    1.400         0.000           3.000
+hn-3n-Pd-1c   0    0.000         0.000           0.000
+hn-3n-Pd-1c   0    0.000         0.000           0.000
+hn-3n-Pd-2c   0    0.000         0.000           0.000
+hn-3n-Pd-2c   0    0.000         0.000           0.000
+hn-3n-Pd-4n   0    0.000         0.000           0.000
+hn-3n-Pd-4n   0    0.000         0.000           0.000
+hn-3n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+hn-4n-Pd-1c   0    0.000         0.000           0.000
+hn-4n-Pd-1c   0    0.000         0.000           0.000
+hn-4n-Pd-2c   0    0.000         0.000           0.000
+hn-4n-Pd-2c   0    0.000         0.000           0.000
+hn-4n-Pd-3n   0    0.000         0.000           0.000
+hn-4n-Pd-3n   0    0.000         0.000           0.000
+hn-4n-c3-c3   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+hn-4n-c3-hx   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+
+IMPROPER
+1c-2c-Pd-3n         1.1          180.0         2.0          Using the default value
+
+NONBON
+  hc          1.4870  0.0157
+  hn          0.6000  0.0157
+  hx          1.1000  0.0157
+  c3          1.9080  0.1094
+  Pd          1.2360  0.0282   https://pubs.acs.org/doi/10.1021/ct400146w 
+  1c          1.9452  0.2638
+  2c          1.9452  0.2638
+  3n          1.8240  0.1700
+  4n          1.8240  0.1700
+

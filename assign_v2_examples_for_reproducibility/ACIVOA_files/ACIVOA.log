@@ -1,0 +1,140 @@
+2023-07-27 18:04:29,449 [INFO] - ----->ACIVOA.mol2  has been converted to the amber gaff type: ACIVOA_g.mol2.
+2023-07-27 18:04:29,449 [INFO] - 
+
+2023-07-27 18:04:29,456 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{1: [[2, 'cl'], [3, 'cl'], [5, 'na'], [8, 'c2']]} --pd id: [1]
+2023-07-27 18:04:29,456 [INFO] - 
+
+2023-07-27 18:04:29,457 [INFO] - step 1: b= [2, 'cl', 3, 'cl', 5, 'na', 8, 'c2']
+2023-07-27 18:04:29,457 [INFO] - 
+
+2023-07-27 18:04:29,458 [INFO] - step 2 c= ['cl', 'cl', 'na', 'c2']
+2023-07-27 18:04:29,458 [INFO] - 
+
+2023-07-27 18:04:29,459 [INFO] - step 3: d= [2, 3, 5, 8]
+2023-07-27 18:04:29,459 [INFO] - 
+
+2023-07-27 18:04:29,465 [INFO] - 2-1-5 are cis. Angle is: 88.69 derece.
+2023-07-27 18:04:29,467 [INFO] - 
+
+2023-07-27 18:04:29,471 [INFO] - 2-1-8 are cis. Angle is: 87.29 derece.
+2023-07-27 18:04:29,471 [INFO] - 
+
+2023-07-27 18:04:29,475 [INFO] - 3-1-5 are cis. Angle is: 88.89 derece.
+2023-07-27 18:04:29,475 [INFO] - 
+
+2023-07-27 18:04:29,478 [INFO] - 3-1-8 are cis. Angle is: 95.12 derece.
+2023-07-27 18:04:29,479 [INFO] - 
+
+2023-07-27 18:04:29,482 [INFO] - Connections: [(2, 5), (2, 8), (3, 5), (3, 8)]
+2023-07-27 18:04:29,482 [INFO] - 
+
+2023-07-27 18:04:29,483 [INFO] - Sequence:
+2023-07-27 18:04:29,483 [INFO] -  
+2023-07-27 18:04:29,484 [INFO] - [2, 5, 3, 8]
+2023-07-27 18:04:29,484 [INFO] - 
+
+2023-07-27 18:04:29,486 [INFO] - step 4: saf= ['c', 'n', 'c', 'e']
+2023-07-27 18:04:29,487 [INFO] - 
+
+2023-07-27 18:04:29,487 [INFO] - ----->Atom types according to numbering sytem: ['1c', '2n', '3c', '4e']
+2023-07-27 18:04:29,488 [INFO] - 
+
+2023-07-27 18:04:29,488 [INFO] - ----->In your mol2 file these atoms will be replaced: [2, 5, 3, 8]
+2023-07-27 18:04:29,488 [INFO] - 
+
+2023-07-27 18:04:29,496 [INFO] - for g.mol2: gaff_sequenced_dict={'2': 'cl', '3': 'cl', '5': 'na', '8': 'c2'}
+2023-07-27 18:04:29,497 [INFO] - 
+
+2023-07-27 18:04:29,497 [INFO] - for g2.mol2: g2_changes={'2': '1c', '3': '3c', '5': '2n', '8': '4e'}
+2023-07-27 18:04:29,498 [INFO] - 
+
+2023-07-27 18:04:29,498 [INFO] - ----->Numbering/GAFF Dictionary:{'1c': 'cl', '3c': 'cl', '2n': 'na', '4e': 'c2'}
+2023-07-27 18:04:29,498 [INFO] - 
+
+2023-07-27 18:04:30,348 [INFO] - 'parmchk2 -i ACIVOA_g.mol2 -f mol2 -o ACIVOA_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:04:30,348 [INFO] - 
+
+2023-07-27 18:04:31,227 [INFO] - 'parmchk2 -i ACIVOA_g2.mol2 -f mol2 -o ACIVOA_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:04:31,228 [INFO] - 
+
+2023-07-27 18:04:32,606 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:04:32,607 [INFO] - 
+
+2023-07-27 18:04:32,615 [INFO] - ACIVOA_vacuum_tleap.txt file created successfully!
+2023-07-27 18:04:32,616 [INFO] - 
+
+2023-07-27 18:04:32,621 [INFO] - ACIVOA_water_tleap.txt file created successfully!
+2023-07-27 18:04:32,622 [INFO] - 
+
+2023-07-27 18:04:34,088 [INFO] - 'ACIVOA_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:04:34,089 [INFO] - 
+
+2023-07-27 18:04:34,901 [INFO] - 'ACIVOA_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:04:34,901 [INFO] - 
+
+2023-07-27 18:04:34,914 [INFO] - 'ACIVOA_g.mol2' moved to 'ACIVOA_files/ACIVOA_g.mol2'.
+2023-07-27 18:04:34,914 [INFO] - 
+
+2023-07-27 18:04:34,923 [INFO] - 'ACIVOA_g2.mol2' moved to 'ACIVOA_files/ACIVOA_g2.mol2'.
+2023-07-27 18:04:34,924 [INFO] - 
+
+2023-07-27 18:04:34,933 [INFO] - 'ACIVOA_temp.dat' moved to 'ACIVOA_files/ACIVOA_temp.dat'.
+2023-07-27 18:04:34,934 [INFO] - 
+
+2023-07-27 18:04:34,943 [INFO] - 'ACIVOA_check.dat' moved to 'ACIVOA_files/ACIVOA_check.dat'.
+2023-07-27 18:04:34,944 [INFO] - 
+
+2023-07-27 18:04:34,954 [INFO] - 'ACIVOA.frcmod' moved to 'ACIVOA_files/ACIVOA.frcmod'.
+2023-07-27 18:04:34,955 [INFO] - 
+
+2023-07-27 18:04:34,964 [INFO] - 'ACIVOA_vacuum_tleap.txt' moved to 'ACIVOA_files/ACIVOA_vacuum_tleap.txt'.
+2023-07-27 18:04:34,964 [INFO] - 
+
+2023-07-27 18:04:34,973 [INFO] - 'ACIVOA_water_tleap.txt' moved to 'ACIVOA_files/ACIVOA_water_tleap.txt'.
+2023-07-27 18:04:34,974 [INFO] - 
+
+2023-07-27 18:04:34,980 [INFO] - 'ACIVOA.log' moved to 'ACIVOA_files/ACIVOA.log'.
+2023-07-27 18:04:34,981 [INFO] - 
+
+2023-07-27 18:04:34,987 [INFO] - 'ACIVOA.mol2' moved to 'ACIVOA_files/ACIVOA.mol2'.
+2023-07-27 18:04:34,988 [INFO] - 
+
+2023-07-27 18:04:34,995 [INFO] - 'ACIVOA_water.top' moved to 'ACIVOA_files/ACIVOA_water.top'.
+2023-07-27 18:04:34,995 [INFO] - 
+
+2023-07-27 18:04:35,002 [INFO] - 'ACIVOA_vacuum.top' moved to 'ACIVOA_files/ACIVOA_vacuum.top'.
+2023-07-27 18:04:35,002 [INFO] - 
+
+2023-07-27 18:04:35,008 [INFO] - 'ACIVOA_vacuum.crd' moved to 'ACIVOA_files/ACIVOA_vacuum.crd'.
+2023-07-27 18:04:35,009 [INFO] - 
+
+2023-07-27 18:04:35,015 [INFO] - 'ACIVOA_water.crd' moved to 'ACIVOA_files/ACIVOA_water.crd'.
+2023-07-27 18:04:35,016 [INFO] - 
+
+2023-07-27 18:04:35,020 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:04:35,020 [INFO] - 
+
+2023-07-27 18:04:35,024 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:04:35,025 [INFO] - 
+
+2023-07-27 18:04:35,026 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:04:35,026 [INFO] - 
+
+2023-07-27 18:04:35,030 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:04:35,031 [INFO] - 
+
+2023-07-27 18:04:35,035 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:04:35,035 [INFO] - 
+
+2023-07-27 18:04:35,039 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:04:35,039 [INFO] - 
+
+2023-07-27 18:04:35,043 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:04:35,043 [INFO] - 
+
+2023-07-27 18:04:35,047 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:04:35,047 [INFO] - 
+
+2023-07-27 18:04:35,048 [INFO] - **********All processes are finished. Your pd force field file is: ACIVOA_files/ACIVOA.frcmod. Check the ACIVOA_files/ACIVOA_vacuum_tleap.txt  and ACIVOA_files/ACIVOA_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ACIVOA_files/ACIVOA_g2.mol2 FILE... **************
+2023-07-27 18:04:35,048 [INFO] - 
+

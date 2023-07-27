@@ -1,0 +1,140 @@
+2023-07-27 18:04:04,624 [INFO] - ----->ACEJOJ.mol2  has been converted to the amber gaff type: ACEJOJ_g.mol2.
+2023-07-27 18:04:04,624 [INFO] - 
+
+2023-07-27 18:04:04,632 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{1: [[67, 'p5'], [3, 'cl'], [2, 'cl'], [4, 'p5']]} --pd id: [1]
+2023-07-27 18:04:04,632 [INFO] - 
+
+2023-07-27 18:04:04,633 [INFO] - step 1: b= [67, 'p5', 3, 'cl', 2, 'cl', 4, 'p5']
+2023-07-27 18:04:04,633 [INFO] - 
+
+2023-07-27 18:04:04,634 [INFO] - step 2 c= ['p5', 'cl', 'cl', 'p5']
+2023-07-27 18:04:04,634 [INFO] - 
+
+2023-07-27 18:04:04,635 [INFO] - step 3: d= [67, 3, 2, 4]
+2023-07-27 18:04:04,635 [INFO] - 
+
+2023-07-27 18:04:04,639 [INFO] - 67-1-3 are cis. Angle is: 88.39 derece.
+2023-07-27 18:04:04,641 [INFO] - 
+
+2023-07-27 18:04:04,649 [INFO] - 67-1-4 are cis. Angle is: 88.48 derece.
+2023-07-27 18:04:04,649 [INFO] - 
+
+2023-07-27 18:04:04,653 [INFO] - 3-1-2 are cis. Angle is: 94.20 derece.
+2023-07-27 18:04:04,653 [INFO] - 
+
+2023-07-27 18:04:04,660 [INFO] - 2-1-4 are cis. Angle is: 89.29 derece.
+2023-07-27 18:04:04,661 [INFO] - 
+
+2023-07-27 18:04:04,662 [INFO] - Connections: [(67, 3), (67, 4), (3, 2), (2, 4)]
+2023-07-27 18:04:04,663 [INFO] - 
+
+2023-07-27 18:04:04,663 [INFO] - Sequence:
+2023-07-27 18:04:04,664 [INFO] -  
+2023-07-27 18:04:04,664 [INFO] - [67, 3, 2, 4]
+2023-07-27 18:04:04,665 [INFO] - 
+
+2023-07-27 18:04:04,666 [INFO] - step 4: saf= ['p', 'c', 'c', 'p']
+2023-07-27 18:04:04,666 [INFO] - 
+
+2023-07-27 18:04:04,667 [INFO] - ----->Atom types according to numbering sytem: ['1p', '2c', '3c', '4p']
+2023-07-27 18:04:04,667 [INFO] - 
+
+2023-07-27 18:04:04,668 [INFO] - ----->In your mol2 file these atoms will be replaced: [67, 3, 2, 4]
+2023-07-27 18:04:04,668 [INFO] - 
+
+2023-07-27 18:04:04,676 [INFO] - for g.mol2: gaff_sequenced_dict={'2': 'cl', '3': 'cl', '4': 'p5', '67': 'p5'}
+2023-07-27 18:04:04,677 [INFO] - 
+
+2023-07-27 18:04:04,677 [INFO] - for g2.mol2: g2_changes={'2': '3c', '3': '2c', '4': '4p', '67': '1p'}
+2023-07-27 18:04:04,678 [INFO] - 
+
+2023-07-27 18:04:04,679 [INFO] - ----->Numbering/GAFF Dictionary:{'3c': 'cl', '2c': 'cl', '4p': 'p5', '1p': 'p5'}
+2023-07-27 18:04:04,680 [INFO] - 
+
+2023-07-27 18:04:05,568 [INFO] - 'parmchk2 -i ACEJOJ_g.mol2 -f mol2 -o ACEJOJ_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:04:05,568 [INFO] - 
+
+2023-07-27 18:04:06,448 [INFO] - 'parmchk2 -i ACEJOJ_g2.mol2 -f mol2 -o ACEJOJ_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:04:06,449 [INFO] - 
+
+2023-07-27 18:04:07,692 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:04:07,693 [INFO] - 
+
+2023-07-27 18:04:07,702 [INFO] - ACEJOJ_vacuum_tleap.txt file created successfully!
+2023-07-27 18:04:07,703 [INFO] - 
+
+2023-07-27 18:04:07,708 [INFO] - ACEJOJ_water_tleap.txt file created successfully!
+2023-07-27 18:04:07,709 [INFO] - 
+
+2023-07-27 18:04:09,171 [INFO] - 'ACEJOJ_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:04:09,172 [INFO] - 
+
+2023-07-27 18:04:09,987 [INFO] - 'ACEJOJ_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:04:09,987 [INFO] - 
+
+2023-07-27 18:04:10,000 [INFO] - 'ACEJOJ_g.mol2' moved to 'ACEJOJ_files/ACEJOJ_g.mol2'.
+2023-07-27 18:04:10,000 [INFO] - 
+
+2023-07-27 18:04:10,011 [INFO] - 'ACEJOJ_g2.mol2' moved to 'ACEJOJ_files/ACEJOJ_g2.mol2'.
+2023-07-27 18:04:10,011 [INFO] - 
+
+2023-07-27 18:04:10,021 [INFO] - 'ACEJOJ_temp.dat' moved to 'ACEJOJ_files/ACEJOJ_temp.dat'.
+2023-07-27 18:04:10,021 [INFO] - 
+
+2023-07-27 18:04:10,031 [INFO] - 'ACEJOJ_check.dat' moved to 'ACEJOJ_files/ACEJOJ_check.dat'.
+2023-07-27 18:04:10,032 [INFO] - 
+
+2023-07-27 18:04:10,042 [INFO] - 'ACEJOJ.frcmod' moved to 'ACEJOJ_files/ACEJOJ.frcmod'.
+2023-07-27 18:04:10,042 [INFO] - 
+
+2023-07-27 18:04:10,054 [INFO] - 'ACEJOJ_vacuum_tleap.txt' moved to 'ACEJOJ_files/ACEJOJ_vacuum_tleap.txt'.
+2023-07-27 18:04:10,054 [INFO] - 
+
+2023-07-27 18:04:10,065 [INFO] - 'ACEJOJ_water_tleap.txt' moved to 'ACEJOJ_files/ACEJOJ_water_tleap.txt'.
+2023-07-27 18:04:10,066 [INFO] - 
+
+2023-07-27 18:04:10,073 [INFO] - 'ACEJOJ.log' moved to 'ACEJOJ_files/ACEJOJ.log'.
+2023-07-27 18:04:10,073 [INFO] - 
+
+2023-07-27 18:04:10,082 [INFO] - 'ACEJOJ.mol2' moved to 'ACEJOJ_files/ACEJOJ.mol2'.
+2023-07-27 18:04:10,083 [INFO] - 
+
+2023-07-27 18:04:10,090 [INFO] - 'ACEJOJ_water.top' moved to 'ACEJOJ_files/ACEJOJ_water.top'.
+2023-07-27 18:04:10,091 [INFO] - 
+
+2023-07-27 18:04:10,100 [INFO] - 'ACEJOJ_vacuum.top' moved to 'ACEJOJ_files/ACEJOJ_vacuum.top'.
+2023-07-27 18:04:10,101 [INFO] - 
+
+2023-07-27 18:04:10,110 [INFO] - 'ACEJOJ_vacuum.crd' moved to 'ACEJOJ_files/ACEJOJ_vacuum.crd'.
+2023-07-27 18:04:10,110 [INFO] - 
+
+2023-07-27 18:04:10,119 [INFO] - 'ACEJOJ_water.crd' moved to 'ACEJOJ_files/ACEJOJ_water.crd'.
+2023-07-27 18:04:10,119 [INFO] - 
+
+2023-07-27 18:04:10,123 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:04:10,123 [INFO] - 
+
+2023-07-27 18:04:10,128 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:04:10,129 [INFO] - 
+
+2023-07-27 18:04:10,130 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:04:10,130 [INFO] - 
+
+2023-07-27 18:04:10,133 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:04:10,134 [INFO] - 
+
+2023-07-27 18:04:10,137 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:04:10,138 [INFO] - 
+
+2023-07-27 18:04:10,142 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:04:10,142 [INFO] - 
+
+2023-07-27 18:04:10,146 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:04:10,147 [INFO] - 
+
+2023-07-27 18:04:10,151 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:04:10,151 [INFO] - 
+
+2023-07-27 18:04:10,152 [INFO] - **********All processes are finished. Your pd force field file is: ACEJOJ_files/ACEJOJ.frcmod. Check the ACEJOJ_files/ACEJOJ_vacuum_tleap.txt  and ACEJOJ_files/ACEJOJ_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ACEJOJ_files/ACEJOJ_g2.mol2 FILE... **************
+2023-07-27 18:04:10,152 [INFO] - 
+

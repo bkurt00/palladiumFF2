@@ -1,0 +1,143 @@
+2023-07-27 18:03:56,446 [INFO] - ----->ACACPD.mol2  has been converted to the amber gaff type: ACACPD_g.mol2.
+2023-07-27 18:03:56,447 [INFO] - 
+
+2023-07-27 18:03:56,451 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{8: [[6, 'os'], [7, 'os'], [9, 'os'], [10, 'os']]} --pd id: [8]
+2023-07-27 18:03:56,452 [INFO] - 
+
+2023-07-27 18:03:56,452 [INFO] - step 1: b= [6, 'os', 7, 'os', 9, 'os', 10, 'os']
+2023-07-27 18:03:56,453 [INFO] - 
+
+2023-07-27 18:03:56,454 [INFO] - step 2 c= ['os', 'os', 'os', 'os']
+2023-07-27 18:03:56,454 [INFO] - 
+
+2023-07-27 18:03:56,455 [INFO] - step 3: d= [6, 7, 9, 10]
+2023-07-27 18:03:56,455 [INFO] - 
+
+2023-07-27 18:03:56,459 [INFO] - 6-8-7 are cis. Angle is: 95.97 derece.
+2023-07-27 18:03:56,461 [INFO] - 
+
+2023-07-27 18:03:56,479 [ERROR] - assign_v2.py:188: RuntimeWarning: invalid value encountered in arccos
+  angle_rad = np.arccos(dot_product / magnitude_product)
+
+2023-07-27 18:03:56,483 [INFO] - 6-8-10 are cis. Angle is: 84.03 derece.
+2023-07-27 18:03:56,484 [INFO] - 
+
+2023-07-27 18:03:56,488 [INFO] - 7-8-9 are cis. Angle is: 84.03 derece.
+2023-07-27 18:03:56,488 [INFO] - 
+
+2023-07-27 18:03:56,494 [INFO] - 9-8-10 are cis. Angle is: 95.97 derece.
+2023-07-27 18:03:56,495 [INFO] - 
+
+2023-07-27 18:03:56,495 [INFO] - Connections: [(6, 7), (6, 10), (7, 9), (9, 10)]
+2023-07-27 18:03:56,496 [INFO] - 
+
+2023-07-27 18:03:56,496 [INFO] - Sequence:
+2023-07-27 18:03:56,497 [INFO] -  
+2023-07-27 18:03:56,497 [INFO] - [6, 7, 9, 10]
+2023-07-27 18:03:56,498 [INFO] - 
+
+2023-07-27 18:03:56,498 [INFO] - step 4: saf= ['o', 'o', 'o', 'o']
+2023-07-27 18:03:56,499 [INFO] - 
+
+2023-07-27 18:03:56,499 [INFO] - ----->Atom types according to numbering sytem: ['1o', '2o', '3o', '4o']
+2023-07-27 18:03:56,500 [INFO] - 
+
+2023-07-27 18:03:56,500 [INFO] - ----->In your mol2 file these atoms will be replaced: [6, 7, 9, 10]
+2023-07-27 18:03:56,500 [INFO] - 
+
+2023-07-27 18:03:56,507 [INFO] - for g.mol2: gaff_sequenced_dict={'6': 'os', '7': 'os', '9': 'os', '10': 'os'}
+2023-07-27 18:03:56,508 [INFO] - 
+
+2023-07-27 18:03:56,509 [INFO] - for g2.mol2: g2_changes={'6': '1o', '7': '2o', '9': '3o', '10': '4o'}
+2023-07-27 18:03:56,509 [INFO] - 
+
+2023-07-27 18:03:56,510 [INFO] - ----->Numbering/GAFF Dictionary:{'1o': 'os', '2o': 'os', '3o': 'os', '4o': 'os'}
+2023-07-27 18:03:56,510 [INFO] - 
+
+2023-07-27 18:03:57,302 [INFO] - 'parmchk2 -i ACACPD_g.mol2 -f mol2 -o ACACPD_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:57,302 [INFO] - 
+
+2023-07-27 18:03:58,134 [INFO] - 'parmchk2 -i ACACPD_g2.mol2 -f mol2 -o ACACPD_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:03:58,134 [INFO] - 
+
+2023-07-27 18:03:59,268 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:03:59,269 [INFO] - 
+
+2023-07-27 18:03:59,278 [INFO] - ACACPD_vacuum_tleap.txt file created successfully!
+2023-07-27 18:03:59,279 [INFO] - 
+
+2023-07-27 18:03:59,285 [INFO] - ACACPD_water_tleap.txt file created successfully!
+2023-07-27 18:03:59,285 [INFO] - 
+
+2023-07-27 18:04:00,690 [INFO] - 'ACACPD_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:04:00,691 [INFO] - 
+
+2023-07-27 18:04:01,530 [INFO] - 'ACACPD_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:04:01,531 [INFO] - 
+
+2023-07-27 18:04:01,543 [INFO] - 'ACACPD_g.mol2' moved to 'ACACPD_files/ACACPD_g.mol2'.
+2023-07-27 18:04:01,544 [INFO] - 
+
+2023-07-27 18:04:01,555 [INFO] - 'ACACPD_g2.mol2' moved to 'ACACPD_files/ACACPD_g2.mol2'.
+2023-07-27 18:04:01,556 [INFO] - 
+
+2023-07-27 18:04:01,566 [INFO] - 'ACACPD_temp.dat' moved to 'ACACPD_files/ACACPD_temp.dat'.
+2023-07-27 18:04:01,566 [INFO] - 
+
+2023-07-27 18:04:01,575 [INFO] - 'ACACPD_check.dat' moved to 'ACACPD_files/ACACPD_check.dat'.
+2023-07-27 18:04:01,576 [INFO] - 
+
+2023-07-27 18:04:01,587 [INFO] - 'ACACPD.frcmod' moved to 'ACACPD_files/ACACPD.frcmod'.
+2023-07-27 18:04:01,587 [INFO] - 
+
+2023-07-27 18:04:01,599 [INFO] - 'ACACPD_vacuum_tleap.txt' moved to 'ACACPD_files/ACACPD_vacuum_tleap.txt'.
+2023-07-27 18:04:01,600 [INFO] - 
+
+2023-07-27 18:04:01,610 [INFO] - 'ACACPD_water_tleap.txt' moved to 'ACACPD_files/ACACPD_water_tleap.txt'.
+2023-07-27 18:04:01,611 [INFO] - 
+
+2023-07-27 18:04:01,620 [INFO] - 'ACACPD.log' moved to 'ACACPD_files/ACACPD.log'.
+2023-07-27 18:04:01,621 [INFO] - 
+
+2023-07-27 18:04:01,630 [INFO] - 'ACACPD.mol2' moved to 'ACACPD_files/ACACPD.mol2'.
+2023-07-27 18:04:01,631 [INFO] - 
+
+2023-07-27 18:04:01,639 [INFO] - 'ACACPD_water.top' moved to 'ACACPD_files/ACACPD_water.top'.
+2023-07-27 18:04:01,639 [INFO] - 
+
+2023-07-27 18:04:01,648 [INFO] - 'ACACPD_vacuum.top' moved to 'ACACPD_files/ACACPD_vacuum.top'.
+2023-07-27 18:04:01,648 [INFO] - 
+
+2023-07-27 18:04:01,655 [INFO] - 'ACACPD_vacuum.crd' moved to 'ACACPD_files/ACACPD_vacuum.crd'.
+2023-07-27 18:04:01,656 [INFO] - 
+
+2023-07-27 18:04:01,664 [INFO] - 'ACACPD_water.crd' moved to 'ACACPD_files/ACACPD_water.crd'.
+2023-07-27 18:04:01,665 [INFO] - 
+
+2023-07-27 18:04:01,669 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:04:01,669 [INFO] - 
+
+2023-07-27 18:04:01,673 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:04:01,673 [INFO] - 
+
+2023-07-27 18:04:01,674 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:04:01,675 [INFO] - 
+
+2023-07-27 18:04:01,679 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:04:01,679 [INFO] - 
+
+2023-07-27 18:04:01,683 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:04:01,683 [INFO] - 
+
+2023-07-27 18:04:01,687 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:04:01,687 [INFO] - 
+
+2023-07-27 18:04:01,691 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:04:01,692 [INFO] - 
+
+2023-07-27 18:04:01,696 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:04:01,696 [INFO] - 
+
+2023-07-27 18:04:01,697 [INFO] - **********All processes are finished. Your pd force field file is: ACACPD_files/ACACPD.frcmod. Check the ACACPD_files/ACACPD_vacuum_tleap.txt  and ACACPD_files/ACACPD_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ACACPD_files/ACACPD_g2.mol2 FILE... **************
+2023-07-27 18:04:01,697 [INFO] - 
+

@@ -1,0 +1,120 @@
+Remark line goes here: assign.py
+MASS
+c3 12.01         0.878
+ca 12.01         0.360
+ha 1.008         0.135
+hc 1.008         0.135
+Pd 106.42        2.050
+1c 35.450        1.910 
+2c 35.450        1.910 
+3p 30.973        1.538 
+4p 30.973        1.538 
+
+BOND
+1c-Pd  197.41   2.301  
+2c-Pd  197.41   2.301  
+3p-Pd  146.53   2.319
+4p-Pd  146.53   2.319
+3p-c3  243.20   1.840       same as c3-py, penalty score=  0.0
+3p-ca  257.70   1.816       same as ca-py, penalty score=  0.0
+4p-c3  243.20   1.840       same as c3-py, penalty score=  0.0
+4p-ca  257.70   1.816       same as ca-py, penalty score=  0.0
+c3-hc  330.60   1.097
+c3-c3  300.90   1.538
+ca-ca  461.10   1.398
+ca-ha  345.80   1.086
+
+ANGLE
+Pd-3p-c3   90.580     117.62
+Pd-3p-c3   96.581     117.61   ATTN, need revision  
+Pd-3p-ca   115.986    119.78
+Pd-4p-c3   90.580     117.62
+Pd-4p-c3   96.581     117.61   ATTN, need revision  
+Pd-4p-ca   115.986    119.78
+1c-Pd-2c   60.360     90.000
+1c-Pd-2c   64.468     178.60 
+1c-Pd-3p   72.405     179.41
+1c-Pd-3p   72.405     179.41 
+1c-Pd-4p   69.824     88.610
+2c-Pd-3p   69.824     88.610
+2c-Pd-4p   72.405     179.41
+2c-Pd-4p   72.405     179.41 
+3p-Pd-4p   94.889     90.000
+3p-Pd-4p   85.817     159.78   ATTN, need revision   
+3p-c3-hc   53.100     109.180   same as hc-c3-py, penalty score=  0.0
+3p-c3-c3   77.100     111.570   same as c3-c3-py, penalty score=  0.0
+3p-ca-ca   76.700     120.250   same as ca-ca-py, penalty score=  0.0
+4p-c3-c3   77.100     111.570   same as c3-c3-py, penalty score=  0.0
+4p-c3-hc   53.100     109.180   same as hc-c3-py, penalty score=  0.0
+4p-ca-ca   76.700     120.250   same as ca-ca-py, penalty score=  0.0
+c3-3p-ca   36.500     107.270   same as c3-py-ca, penalty score=  0.0
+c3-c3-hc   46.300     109.800
+hc-c3-hc   39.400     107.580
+c3-4p-ca   36.500     107.270   same as c3-py-ca, penalty score=  0.0
+ca-3p-ca   36.700     107.550   same as ca-py-ca, penalty score=  0.0
+ca-ca-ha   48.200     119.880
+ca-ca-ca   66.600     120.020
+ca-4p-ca   36.700     107.550   same as ca-py-ca, penalty score=  0.0
+
+DIHE
+3p-c3-c3-4p   9    1.400         0.000           3.000
+3p-c3-c3-hc   9    1.400         0.000           3.000
+3p-ca-ca-ca   4   14.500       180.000           2.000
+3p-ca-ca-ha   4   14.500       180.000           2.000
+4p-c3-c3-hc   9    1.400         0.000           3.000
+4p-ca-ca-ca   4   14.500       180.000           2.000
+4p-ca-ca-ha   4   14.500       180.000           2.000
+Pd-3p-c3-c3   9    0.200         0.000           3.000      same as X -c3-p5-X , penalty score=  0.0
+Pd-3p-c3-hc   9    0.200         0.000           3.000      same as X -c3-p5-X , penalty score=  0.0
+Pd-3p-ca-ca   6    8.800       180.000           2.000      same as X -ca-p5-X , penalty score=  0.0
+Pd-4p-c3-c3   9    0.200         0.000           3.000      same as X -c3-p5-X , penalty score=  0.0
+Pd-4p-c3-hc   9    0.200         0.000           3.000      same as X -c3-p5-X , penalty score=  0.0
+Pd-4p-ca-ca   6    8.800       180.000           2.000      same as X -ca-p5-X , penalty score=  0.0
+c3-3p-Pd-1c   0    0.000         0.000           0.000
+c3-3p-Pd-2c   0    0.000         0.000           0.000
+c3-3p-Pd-4p   0    0.000         0.000           0.000
+c3-3p-ca-ca   6    8.800       180.000           2.000      same as X -ca-p5-X , penalty score=  0.0
+c3-4p-Pd-1c   0    0.000         0.000           0.000
+c3-4p-Pd-2c   0    0.000         0.000           0.000
+c3-4p-Pd-3p   0    0.000         0.000           0.000
+c3-4p-ca-ca   6    8.800       180.000           2.000      same as X -ca-p5-X , penalty score=  0.0
+ca-3p-Pd-1c   0    0.000         0.000           0.000
+ca-3p-Pd-1c   0    0.000         0.000           0.000
+ca-3p-Pd-2c   0    0.000         0.000           0.000
+ca-3p-Pd-2c   0    0.000         0.000           0.000
+ca-3p-Pd-4p   0    0.000         0.000           0.000
+ca-3p-Pd-4p   0    0.000         0.000           0.000
+ca-3p-c3-c3   9    0.200         0.000           3.000      same as X -c3-p5-X , penalty score=  0.0
+ca-3p-c3-hc   9    0.200         0.000           3.000      same as X -c3-p5-X , penalty score=  0.0
+ca-3p-ca-ca   6    8.800       180.000           2.000      same as X -ca-p5-X , penalty score=  0.0
+ca-4p-Pd-1c   0    0.000         0.000           0.000
+ca-4p-Pd-1c   0    0.000         0.000           0.000
+ca-4p-Pd-2c   0    0.000         0.000           0.000
+ca-4p-Pd-2c   0    0.000         0.000           0.000
+ca-4p-Pd-3p   0    0.000         0.000           0.000
+ca-4p-Pd-3p   0    0.000         0.000           0.000
+ca-4p-c3-c3   9    0.200         0.000           3.000      same as X -c3-p5-X , penalty score=  0.0
+ca-4p-c3-hc   9    0.200         0.000           3.000      same as X -c3-p5-X , penalty score=  0.0
+ca-4p-ca-ca   6    8.800       180.000           2.000      same as X -ca-p5-X , penalty score=  0.0
+ca-ca-ca-ca   4   14.500       180.000           2.000
+ca-ca-ca-ha   4   14.500       180.000           2.000
+ha-ca-ca-ha   4   14.500       180.000           2.000
+hc-c3-c3-hc   1    0.150         0.000           3.000
+
+IMPROPER
+1c-2c-Pd-3p         1.1          180.0         2.0          Using the default value
+3p-ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+4p-ca-ca-ca         1.1          180.0         2.0          Using the default value
+
+NONBON
+  ha          1.4590  0.0150
+  hc          1.4870  0.0157
+  c3          1.9080  0.1094
+  ca          1.9080  0.0860
+  Pd          1.2360  0.0282   https://pubs.acs.org/doi/10.1021/ct400146w 
+  1c          1.9452  0.2638
+  2c          1.9452  0.2638
+  3p          2.1000  0.2000
+  4p          2.1000  0.2000
+

@@ -1,0 +1,8 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ACITUB_g2.mol2
+a=loadmol2 ACITUB_g2.mol2
+source leaprc.gaff2
+loadamberparams ACITUB.frcmod
+charge a
+check a
+saveamberparm a ACITUB_vacuum.top ACITUB_vacuum.crd
+quit

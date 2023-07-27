@@ -1,0 +1,103 @@
+Remark line goes here
+MASS
+c3 12.010        0.878
+1o 16.000        0.465               same as os 
+2o 16.000        0.465               same as os 
+Pd 106.400       0.000               ATTN, no polarizability parameter
+3o 16.000        0.465               same as os 
+4o 16.000        0.465               same as os 
+h1 1.008         0.135
+hc 1.008         0.135
+
+BOND
+c3-c3  300.90   1.538
+1o-c3  308.60   1.432       same as c3-os, penalty score=  0.0
+c3-h1  330.60   1.097
+c3-hc  330.60   1.097
+2o-c3  308.60   1.432       same as c3-os, penalty score=  0.0
+1o-Pd    0.00   0.000       ATTN, need revision
+2o-Pd    0.00   0.000       ATTN, need revision
+3o-Pd    0.00   0.000       ATTN, need revision
+4o-Pd    0.00   0.000       ATTN, need revision
+3o-c3  308.60   1.432       same as c3-os, penalty score=  0.0
+4o-c3  308.60   1.432       same as c3-os, penalty score=  0.0
+
+ANGLE
+c3-c3-hc   46.300     109.800
+c3-c3-c3   62.900     111.510
+Pd-1o-c3    0.000       0.000   ATTN, need revision
+1o-c3-c3   68.000     107.970   same as c3-c3-os, penalty score=  0.0
+c3-c3-h1   46.400     109.560
+2o-c3-c3   68.000     107.970   same as c3-c3-os, penalty score=  0.0
+Pd-2o-c3    0.000       0.000   ATTN, need revision
+1o-c3-h1   50.800     109.780   same as h1-c3-os, penalty score=  0.0
+1o-Pd-2o    0.000       0.000   ATTN, need revision
+1o-Pd-3o    0.000       0.000   ATTN, need revision
+1o-Pd-4o    0.000       0.000   ATTN, need revision
+2o-c3-h1   50.800     109.780   same as h1-c3-os, penalty score=  0.0
+2o-Pd-3o    0.000       0.000   ATTN, need revision
+2o-Pd-4o    0.000       0.000   ATTN, need revision
+Pd-3o-c3    0.000       0.000   ATTN, need revision
+Pd-4o-c3    0.000       0.000   ATTN, need revision
+3o-Pd-4o    0.000       0.000   ATTN, need revision
+3o-c3-c3   68.000     107.970   same as c3-c3-os, penalty score=  0.0
+3o-c3-h1   50.800     109.780   same as h1-c3-os, penalty score=  0.0
+4o-c3-c3   68.000     107.970   same as c3-c3-os, penalty score=  0.0
+4o-c3-h1   50.800     109.780   same as h1-c3-os, penalty score=  0.0
+hc-c3-hc   39.400     107.580
+
+DIHE
+c3-c3-c3-c3   1    0.180         0.000          -3.000
+c3-c3-c3-c3   1    0.250       180.000          -2.000
+c3-c3-c3-c3   1    0.200       180.000           1.000
+2o-c3-c3-c3   9    1.400         0.000           3.000
+c3-c3-c3-h1   9    1.400         0.000           3.000
+c3-1o-Pd-2o   1    0.000         0.000           2.000      ATTN, need revision
+c3-1o-Pd-3o   1    0.000         0.000           2.000      ATTN, need revision
+c3-1o-Pd-4o   1    0.000         0.000           2.000      ATTN, need revision
+c3-c3-c3-hc   1    0.160         0.000           3.000
+Pd-1o-c3-c3   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Pd-2o-c3-c3   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+c3-2o-Pd-1o   1    0.000         0.000           2.000      ATTN, need revision
+c3-2o-Pd-3o   1    0.000         0.000           2.000      ATTN, need revision
+c3-2o-Pd-4o   1    0.000         0.000           2.000      ATTN, need revision
+1o-c3-c3-hc   1    0.000         0.000          -3.000      same as hc-c3-c3-os
+1o-c3-c3-hc   1    0.250         0.000           1.000      same as hc-c3-c3-os, penalty score=  0.0
+1o-c3-c3-c3   9    1.400         0.000           3.000
+c3-3o-Pd-1o   1    0.000         0.000           2.000      ATTN, need revision
+c3-4o-Pd-1o   1    0.000         0.000           2.000      ATTN, need revision
+2o-c3-c3-hc   1    0.000         0.000          -3.000      same as hc-c3-c3-os
+2o-c3-c3-hc   1    0.250         0.000           1.000      same as hc-c3-c3-os, penalty score=  0.0
+c3-3o-Pd-2o   1    0.000         0.000           2.000      ATTN, need revision
+c3-4o-Pd-2o   1    0.000         0.000           2.000      ATTN, need revision
+Pd-3o-c3-c3   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Pd-3o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Pd-4o-c3-c3   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Pd-4o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+c3-4o-Pd-3o   1    0.000         0.000           2.000      ATTN, need revision
+3o-c3-c3-hc   1    0.000         0.000          -3.000      same as hc-c3-c3-os
+3o-c3-c3-hc   1    0.250         0.000           1.000      same as hc-c3-c3-os, penalty score=  0.0
+3o-c3-c3-c3   9    1.400         0.000           3.000
+c3-3o-Pd-4o   1    0.000         0.000           2.000      ATTN, need revision
+4o-c3-c3-c3   9    1.400         0.000           3.000
+4o-c3-c3-hc   1    0.000         0.000          -3.000      same as hc-c3-c3-os
+4o-c3-c3-hc   1    0.250         0.000           1.000      same as hc-c3-c3-os, penalty score=  0.0
+h1-c3-c3-hc   9    1.400         0.000           3.000
+Pd-1o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+Pd-2o-c3-h1   3    1.150         0.000           3.000      same as X -c3-os-X , penalty score=  0.0
+
+IMPROPER
+1o-2o-Pd-3o         1.1          180.0         2.0          Using the default value
+
+NONBON
+  c3          1.9080  0.1094
+  1o          1.6837  0.1700             same as os 
+  2o          1.6837  0.1700             same as os 
+  Pd          0.0000  0.0000             ATTN, need revision
+  3o          1.6837  0.1700             same as os 
+  4o          1.6837  0.1700             same as os 
+  h1          1.3870  0.0157
+  hc          1.4870  0.0157
+
+
+

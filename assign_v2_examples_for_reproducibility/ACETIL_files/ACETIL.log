@@ -1,0 +1,140 @@
+2023-07-27 18:04:13,066 [INFO] - ----->ACETIL.mol2  has been converted to the amber gaff type: ACETIL_g.mol2.
+2023-07-27 18:04:13,066 [INFO] - 
+
+2023-07-27 18:04:13,070 [INFO] - ----->The numbers and gaff types of the atoms bonded to the metal atom in the mol2 file:{1: [[2, 'cl'], [3, 'cl'], [4, 'ny'], [7, 'ny']]} --pd id: [1]
+2023-07-27 18:04:13,070 [INFO] - 
+
+2023-07-27 18:04:13,071 [INFO] - step 1: b= [2, 'cl', 3, 'cl', 4, 'ny', 7, 'ny']
+2023-07-27 18:04:13,071 [INFO] - 
+
+2023-07-27 18:04:13,071 [INFO] - step 2 c= ['cl', 'cl', 'ny', 'ny']
+2023-07-27 18:04:13,072 [INFO] - 
+
+2023-07-27 18:04:13,072 [INFO] - step 3: d= [2, 3, 4, 7]
+2023-07-27 18:04:13,073 [INFO] - 
+
+2023-07-27 18:04:13,076 [INFO] - 2-1-3 are cis. Angle is: 93.67 derece.
+2023-07-27 18:04:13,077 [INFO] - 
+
+2023-07-27 18:04:13,082 [INFO] - 2-1-7 are cis. Angle is: 92.36 derece.
+2023-07-27 18:04:13,083 [INFO] - 
+
+2023-07-27 18:04:13,086 [INFO] - 3-1-4 are cis. Angle is: 90.72 derece.
+2023-07-27 18:04:13,086 [INFO] - 
+
+2023-07-27 18:04:13,092 [INFO] - 4-1-7 are cis. Angle is: 83.26 derece.
+2023-07-27 18:04:13,093 [INFO] - 
+
+2023-07-27 18:04:13,093 [INFO] - Connections: [(2, 3), (2, 7), (3, 4), (4, 7)]
+2023-07-27 18:04:13,093 [INFO] - 
+
+2023-07-27 18:04:13,094 [INFO] - Sequence:
+2023-07-27 18:04:13,094 [INFO] -  
+2023-07-27 18:04:13,094 [INFO] - [2, 3, 4, 7]
+2023-07-27 18:04:13,095 [INFO] - 
+
+2023-07-27 18:04:13,096 [INFO] - step 4: saf= ['c', 'c', 'n', 'n']
+2023-07-27 18:04:13,097 [INFO] - 
+
+2023-07-27 18:04:13,097 [INFO] - ----->Atom types according to numbering sytem: ['1c', '2c', '3n', '4n']
+2023-07-27 18:04:13,098 [INFO] - 
+
+2023-07-27 18:04:13,098 [INFO] - ----->In your mol2 file these atoms will be replaced: [2, 3, 4, 7]
+2023-07-27 18:04:13,098 [INFO] - 
+
+2023-07-27 18:04:13,105 [INFO] - for g.mol2: gaff_sequenced_dict={'2': 'cl', '3': 'cl', '4': 'ny', '7': 'ny'}
+2023-07-27 18:04:13,106 [INFO] - 
+
+2023-07-27 18:04:13,106 [INFO] - for g2.mol2: g2_changes={'2': '1c', '3': '2c', '4': '3n', '7': '4n'}
+2023-07-27 18:04:13,107 [INFO] - 
+
+2023-07-27 18:04:13,107 [INFO] - ----->Numbering/GAFF Dictionary:{'1c': 'cl', '2c': 'cl', '3n': 'ny', '4n': 'ny'}
+2023-07-27 18:04:13,108 [INFO] - 
+
+2023-07-27 18:04:13,847 [INFO] - 'parmchk2 -i ACETIL_g.mol2 -f mol2 -o ACETIL_check.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:04:13,847 [INFO] - 
+
+2023-07-27 18:04:14,634 [INFO] - 'parmchk2 -i ACETIL_g2.mol2 -f mol2 -o ACETIL_temp.dat -pf 2 -a Y' executed successfully.
+2023-07-27 18:04:14,634 [INFO] - 
+
+2023-07-27 18:04:15,750 [INFO] - ----->List of dihedral parameters that cannot be converted: []
+2023-07-27 18:04:15,750 [INFO] - 
+
+2023-07-27 18:04:15,760 [INFO] - ACETIL_vacuum_tleap.txt file created successfully!
+2023-07-27 18:04:15,761 [INFO] - 
+
+2023-07-27 18:04:15,765 [INFO] - ACETIL_water_tleap.txt file created successfully!
+2023-07-27 18:04:15,766 [INFO] - 
+
+2023-07-27 18:04:17,135 [INFO] - 'ACETIL_water_tleap.txt' executed successfully in tleap!
+2023-07-27 18:04:17,136 [INFO] - 
+
+2023-07-27 18:04:17,922 [INFO] - 'ACETIL_vacuum_tleap.txt' executed successfully in tleap!
+2023-07-27 18:04:17,923 [INFO] - 
+
+2023-07-27 18:04:17,934 [INFO] - 'ACETIL_g.mol2' moved to 'ACETIL_files/ACETIL_g.mol2'.
+2023-07-27 18:04:17,935 [INFO] - 
+
+2023-07-27 18:04:17,946 [INFO] - 'ACETIL_g2.mol2' moved to 'ACETIL_files/ACETIL_g2.mol2'.
+2023-07-27 18:04:17,947 [INFO] - 
+
+2023-07-27 18:04:17,958 [INFO] - 'ACETIL_temp.dat' moved to 'ACETIL_files/ACETIL_temp.dat'.
+2023-07-27 18:04:17,959 [INFO] - 
+
+2023-07-27 18:04:17,969 [INFO] - 'ACETIL_check.dat' moved to 'ACETIL_files/ACETIL_check.dat'.
+2023-07-27 18:04:17,969 [INFO] - 
+
+2023-07-27 18:04:17,980 [INFO] - 'ACETIL.frcmod' moved to 'ACETIL_files/ACETIL.frcmod'.
+2023-07-27 18:04:17,980 [INFO] - 
+
+2023-07-27 18:04:17,990 [INFO] - 'ACETIL_vacuum_tleap.txt' moved to 'ACETIL_files/ACETIL_vacuum_tleap.txt'.
+2023-07-27 18:04:17,991 [INFO] - 
+
+2023-07-27 18:04:18,001 [INFO] - 'ACETIL_water_tleap.txt' moved to 'ACETIL_files/ACETIL_water_tleap.txt'.
+2023-07-27 18:04:18,002 [INFO] - 
+
+2023-07-27 18:04:18,010 [INFO] - 'ACETIL.log' moved to 'ACETIL_files/ACETIL.log'.
+2023-07-27 18:04:18,011 [INFO] - 
+
+2023-07-27 18:04:18,020 [INFO] - 'ACETIL.mol2' moved to 'ACETIL_files/ACETIL.mol2'.
+2023-07-27 18:04:18,020 [INFO] - 
+
+2023-07-27 18:04:18,030 [INFO] - 'ACETIL_water.top' moved to 'ACETIL_files/ACETIL_water.top'.
+2023-07-27 18:04:18,030 [INFO] - 
+
+2023-07-27 18:04:18,038 [INFO] - 'ACETIL_vacuum.top' moved to 'ACETIL_files/ACETIL_vacuum.top'.
+2023-07-27 18:04:18,039 [INFO] - 
+
+2023-07-27 18:04:18,049 [INFO] - 'ACETIL_vacuum.crd' moved to 'ACETIL_files/ACETIL_vacuum.crd'.
+2023-07-27 18:04:18,049 [INFO] - 
+
+2023-07-27 18:04:18,058 [INFO] - 'ACETIL_water.crd' moved to 'ACETIL_files/ACETIL_water.crd'.
+2023-07-27 18:04:18,059 [INFO] - 
+
+2023-07-27 18:04:18,063 [INFO] - 'ANTECHAMBER_AC.AC0' deleted successfully.
+2023-07-27 18:04:18,063 [INFO] - 
+
+2023-07-27 18:04:18,066 [INFO] - 'ATOMTYPE.INF' deleted successfully.
+2023-07-27 18:04:18,067 [INFO] - 
+
+2023-07-27 18:04:18,067 [INFO] - 'ANTECHAMBER_AC.AC0' does not exist and cannot be deleted.
+2023-07-27 18:04:18,068 [INFO] - 
+
+2023-07-27 18:04:18,071 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC' deleted successfully.
+2023-07-27 18:04:18,071 [INFO] - 
+
+2023-07-27 18:04:18,075 [INFO] - 'ANTECHAMBER_BOND_TYPE.AC0' deleted successfully.
+2023-07-27 18:04:18,076 [INFO] - 
+
+2023-07-27 18:04:18,079 [INFO] - 'ANTECHAMBER.FRCMOD' deleted successfully.
+2023-07-27 18:04:18,079 [INFO] - 
+
+2023-07-27 18:04:18,083 [INFO] - 'ANTECHAMBER_AC.AC' deleted successfully.
+2023-07-27 18:04:18,083 [INFO] - 
+
+2023-07-27 18:04:18,086 [INFO] - 'leap.log' deleted successfully.
+2023-07-27 18:04:18,087 [INFO] - 
+
+2023-07-27 18:04:18,087 [INFO] - **********All processes are finished. Your pd force field file is: ACETIL_files/ACETIL.frcmod. Check the ACETIL_files/ACETIL_vacuum_tleap.txt  and ACETIL_files/ACETIL_water_tleap.txt DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ACETIL_files/ACETIL_g2.mol2 FILE... **************
+2023-07-27 18:04:18,088 [INFO] - 
+

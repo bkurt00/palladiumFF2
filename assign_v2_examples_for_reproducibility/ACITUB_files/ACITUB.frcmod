@@ -1,0 +1,179 @@
+Remark line goes here: assign.py
+MASS
+c  12.01         0.616
+c2 12.01         0.360
+c3 12.01         0.878
+cc 12.01         0.360
+cd 12.01         0.360
+h1 1.008         0.135
+h4 1.008         0.135
+ha 1.008         0.135
+hn 1.008         0.161
+o  16.00         0.434
+Pd 106.42        2.050
+1c 35.450        1.910 
+2n 14.010        0.530 
+3c 35.450        1.910
+4n 14.010        0.530 
+
+BOND
+1c-Pd  197.41   2.301  
+2n-Pd  093.62   2.084  
+3c-Pd  197.41   2.301  
+4n-Pd  093.62   2.084  
+2n-c2  416.20   1.387       same as c2-nh, penalty score=  0.0
+2n-cc  435.20   1.373       same as cc-nh, penalty score=  0.0
+c2-h4  344.60   1.087
+c2-c2  569.40   1.334
+c2-cc  523.80   1.359
+c -c2  449.90   1.406
+cc-ha  349.10   1.084
+cc-cd  500.90   1.373
+cd-ha  349.10   1.084
+cc-h4  352.00   1.082
+c -o   637.70   1.218
+c -ns  427.60   1.379       same as  c- n, penalty score=  0.0
+hn-ns  403.20   1.013       same as hn- n, penalty score=  0.0
+c3-ns  328.70   1.462       same as c3- n, penalty score=  0.0
+c3-h1  330.60   1.097
+4n-c2  416.20   1.387       same as c2-nh, penalty score=  0.0
+4n-cc  435.20   1.373       same as cc-nh, penalty score=  0.0
+
+ANGLE
+Pd-2n-c2   134.97     115.91
+Pd-2n-c2   139.07     106.43
+Pd-2n-cc   134.32     131.17    #VFFDT and antechamber disagree ACIWER
+Pd-4n-c2   134.97     115.91
+Pd-4n-c2   139.07     106.43
+Pd-4n-cc   134.32     131.17    #VFFDT and antechamber disagree ACIWER
+1c-Pd-2n   87.330     90.000
+1c-Pd-2n   81.677     90.970  
+1c-Pd-3c   38.002     179.55    #derived fom cis-trans
+1c-Pd-3c   64.468     178.60 
+1c-Pd-4n   87.330     90.000
+1c-Pd-4n   81.677     90.970  
+2n-Pd-3c   87.330     90.000
+2n-Pd-3c   81.677     90.970  
+2n-Pd-4n   142.50     179.99
+3c-Pd-4n   87.330     90.000
+3c-Pd-4n   81.677     90.970  
+2n-c2-h4   50.700     115.080   same as h4-c2-nh, penalty score=  0.0
+2n-c2-c2   68.700     124.990   same as c2-c2-nh, penalty score=  0.0
+2n-cc-cd   68.400     123.840   same as cd-cc-nh, penalty score=  0.0
+2n-cc-h4   50.637     115.370   Calculated using nh-c2-h4, penalty score= 30.0
+c2-2n-cc   63.900     126.350   same as c2-nh-cc, penalty score=  0.0
+c2-c2-cc   70.000     117.210
+c -c2-c2   67.700     120.700
+c2-c2-h4   49.400     122.670
+c2-cc-ha   48.700     122.720
+c2-cc-cd   69.100     117.020
+c2-c -o    72.700     119.120
+c2-c -ns   67.900     115.220   same as ce-c -n , penalty score=  2.2
+c -c2-cc   70.000     117.210   same as c2-c2-cc, penalty score=  2.6
+cc-cd-ha   48.500     121.760
+cc-cd-cc   67.800     120.080
+cd-cc-ha   48.500     121.760
+cd-cc-h4   47.300     128.480
+c -ns-hn   48.300     117.550   same as c -n -hn, penalty score=  0.0
+c -ns-c3   63.400     120.690   same as c -n -c3, penalty score=  0.0
+ns-c -o    74.200     123.050   same as n -c -o , penalty score=  0.0
+h1-c3-ns   49.800     108.880   same as h1-c3-n , penalty score=  0.0
+c3-ns-hn   45.800     117.680   same as c3-n -hn, penalty score=  0.0
+h1-c3-h1   39.200     108.460
+4n-c2-h4   50.700     115.080   same as h4-c2-nh, penalty score=  0.0
+4n-c2-c2   68.700     124.990   same as c2-c2-nh, penalty score=  0.0
+4n-cc-cd   68.400     123.840   same as cd-cc-nh, penalty score=  0.0
+4n-cc-h4   50.637     115.370   Calculated using nh-c2-h4, penalty score= 30.0
+c2-4n-cc   63.900     126.350   same as c2-nh-cc, penalty score=  0.0
+
+DIHE
+2n-c2-c2-cc   4   26.600       180.000           2.000
+2n-c2-c2-c    4   26.600       180.000           2.000
+2n-cc-cd-cc   4   16.000       180.000           2.000
+2n-cc-cd-ha   4   16.000       180.000           2.000
+4n-c2-c2-cc   4   26.600       180.000           2.000
+4n-c2-c2-c    4   26.600       180.000           2.000
+4n-cc-cd-cc   4   16.000       180.000           2.000
+4n-cc-cd-ha   4   16.000       180.000           2.000
+Pd-2n-c2-c2   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+Pd-2n-c2-h4   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+Pd-2n-cc-cd   4    4.200       180.000           2.000      same as X -cc-nh-X , penalty score=  0.0
+Pd-2n-cc-h4   4    4.200       180.000           2.000      same as X -cc-nh-X , penalty score=  0.0
+Pd-4n-c2-c2   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+Pd-4n-c2-h4   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+Pd-4n-cc-cd   4    4.200       180.000           2.000      same as X -cc-nh-X , penalty score=  0.0
+Pd-4n-cc-h4   4    4.200       180.000           2.000      same as X -cc-nh-X , penalty score=  0.0
+c -c2-c2-h4   4   26.600       180.000           2.000
+c -c2-cc-cd   4   26.600       180.000           2.000      same as X -c2-ce-X , penalty score=136.0
+c -c2-cc-ha   4   26.600       180.000           2.000      same as X -c2-ce-X , penalty score=136.0
+c2-2n-Pd-1c   0    0.000         0.000           0.000
+c2-2n-Pd-3c   0    0.000         0.000           0.000
+c2-2n-Pd-4n   0    0.000         0.000           0.000
+c2-2n-cc-cd   4    4.200       180.000           2.000      same as X -cc-nh-X , penalty score=  0.0
+c2-2n-cc-h4   4    4.200       180.000           2.000      same as X -cc-nh-X , penalty score=  0.0
+c2-4n-Pd-1c   0    0.000         0.000           0.000
+c2-4n-Pd-2n   0    0.000         0.000           0.000
+c2-4n-Pd-3c   0    0.000         0.000           0.000
+c2-4n-cc-cd   4    4.200       180.000           2.000      same as X -cc-nh-X , penalty score=  0.0
+c2-4n-cc-h4   4    4.200       180.000           2.000      same as X -cc-nh-X , penalty score=  0.0
+c2-c -ns-c3   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+c2-c -ns-hn   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+c2-c2-cc-cd   4   26.600       180.000           2.000      same as X -c2-ce-X , penalty score=136.0
+c2-c2-cc-ha   4   26.600       180.000           2.000      same as X -c2-ce-X , penalty score=136.0
+c2-cc-cd-cc   4   16.000       180.000           2.000
+c2-cc-cd-ha   4   16.000       180.000           2.000
+cc-2n-Pd-1c   0    0.000         0.000           0.000
+cc-2n-Pd-3c   0    0.000         0.000           0.000
+cc-2n-Pd-4n   0    0.000         0.000           0.000
+cc-2n-c2-c2   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+cc-2n-c2-h4   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+cc-4n-Pd-1c   0    0.000         0.000           0.000
+cc-4n-Pd-2n   0    0.000         0.000           0.000
+cc-4n-Pd-3c   0    0.000         0.000           0.000
+cc-4n-c2-c2   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+cc-4n-c2-h4   4    2.700       180.000           2.000      same as X -c2-nh-X , penalty score=  0.0
+cc-c2-c2-h4   4   26.600       180.000           2.000
+h1-c3-ns-c    6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+h1-c3-ns-hn   6    0.000         0.000           2.000      same as X -c3-n -X , penalty score=  0.0
+h4-cc-cd-cc   4   16.000       180.000           2.000
+h4-cc-cd-ha   4   16.000       180.000           2.000
+ha-cc-cd-cc   4   16.000       180.000           2.000
+ha-cc-cd-ha   4   16.000       180.000           2.000
+ns-c -c2-c2   4    8.700       180.000           2.000
+ns-c -c2-cc   4    8.700       180.000           2.000
+o -c -c2-c2   1    2.175       180.000          -2.000
+o -c -c2-c2   1    0.300         0.000           3.000
+o -c -c2-cc   4    8.700       180.000           2.000
+o -c -ns-c3   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+o -c -ns-hn   1    2.500       180.000          -2.000      same as hn-n -c -o 
+o -c -ns-hn   1    2.000         0.000           1.000      same as hn-n -c -o , penalty score=  0.0
+
+IMPROPER
+1c-2n-Pd-3c         1.1          180.0         2.0          Using the default value
+2n-c2-c2-h4         1.1          180.0         2.0          Using the default value
+c -c2-c2-cc         1.1          180.0         2.0          Using the default value
+c2-cd-cc-ha         1.1          180.0         2.0          Using the default value
+cc-cc-cd-ha         1.1          180.0         2.0          Using the default value
+2n-cd-cc-h4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+c2-ns-c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c -c3-ns-hn         1.1          180.0         2.0          Using the default value
+4n-c2-c2-h4         1.1          180.0         2.0          Using the default value
+4n-cd-cc-h4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+
+NONBON
+  h1          1.3870  0.0157
+  h4          1.4090  0.0150
+  ha          1.4590  0.0150
+  hn          0.6000  0.0157
+  o           1.6612  0.2100
+  c           1.9080  0.0860
+  c2          1.9080  0.0860
+  c3          1.9080  0.1094
+  cc          1.9080  0.0860
+  cd          1.9080  0.0860
+  Pd          1.2360  0.0282   https://pubs.acs.org/doi/10.1021/ct400146w 
+  1c          1.9452  0.2638
+  2n          1.8240  0.1700
+  3c          1.9452  0.2638
+  4n          1.8240  0.1700
+

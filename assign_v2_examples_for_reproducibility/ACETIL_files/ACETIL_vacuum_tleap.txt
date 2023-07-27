@@ -1,0 +1,8 @@
+###NOTE: Please DO NOT FORGET TO ADD RESP CHARGES INTO YOUR ACETIL_g2.mol2
+a=loadmol2 ACETIL_g2.mol2
+source leaprc.gaff2
+loadamberparams ACETIL.frcmod
+charge a
+check a
+saveamberparm a ACETIL_vacuum.top ACETIL_vacuum.crd
+quit
