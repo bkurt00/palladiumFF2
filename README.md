@@ -32,8 +32,7 @@ The software requires the following Python libraries:
 1. Ensure your `.mol2` file is in the same directory as `assign_v2.py`.
 2. Run the software by providing the `.mol2` file as an argument:
 
-```bash
-python assign_v2.py YOUR_FILENAME.mol2
+`python3 assign_v2.py YOUR_FILENAME.mol2`
 
 After execution, assign_v2.py will generate a .frcmod file containing palladium parameters consistent with the numbering system.
 
