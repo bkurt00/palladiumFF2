@@ -36,5 +36,5 @@ The software requires the following Python libraries:
 
 After execution, assign_v2.py will generate a .frcmod file containing palladium parameters consistent with the numbering system.
 
-## Conculusion
+## Conclusion
 assign_v2.py provides a novel approach to derive force fields for palladium compounds, making the previously challenging task of simulating the square planar geometry of palladium straightforward.
