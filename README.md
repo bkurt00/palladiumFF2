@@ -38,3 +38,9 @@ After execution, assign_v2.py will generate a .frcmod file containing palladium 
 
 ## Conclusion
 assign_v2.py provides a novel approach to derive force fields for palladium compounds, making the previously challenging task of simulating the square planar geometry of palladium straightforward.
+## Citation
+DOI: 10.1080/07391102.2023.2283812
+PMID: 38031443 
+Title: "Assign_v2: a novel bonded-force field parameterization software for square planar palladium molecular dynamics simulations"
+Author: Barış KURT
+
