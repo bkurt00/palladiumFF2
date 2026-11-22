@@ -1,4 +1,18 @@
 # assign_v2.py: A Numbering System for Palladium Molecular Dynamics Simulations
+## UPDATE ( 22/11/2026) : 
+## Force-Field Parameterization Beyond Palladium
+
+If you need to generate bonded force-field parameters for metal-containing molecules beyond palladium complexes, consider using **[RapidMetalFF-AI](https://rapidmetalff-ai.biochemoinfo.com/)**.
+
+RapidMetalFF-AI is an automated web server supporting a broad range of metal-containing molecular systems, with simulation-ready outputs for AMBER, GROMACS, and CHARMM.
+
+**Web Server:** https://rapidmetalff-ai.biochemoinfo.com/
+
+**Reference:**
+
+Kurt, B. (2026). *RapidMetalFF-AI: An AI-Assisted Web Server for Minute-Scale Bonded Force-Field Parameterization and Structural Validation of Metal-Containing Molecules with Simulation-Ready AMBER, GROMACS, and CHARMM Outputs.* Molecules, 31(20), 3724.
+
+https://doi.org/10.3390/molecules31203724
 
 ## Introduction
 
